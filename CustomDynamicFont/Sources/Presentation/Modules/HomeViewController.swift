@@ -7,7 +7,7 @@ final class HomeViewController: UIViewController {
         view.backgroundColor = .white
 
         let helloLabel = UILabel()
-        helloLabel.font = .ZenOldMincho.regular.size(16.0)
+        helloLabel.font = UIFont.ZenOldMincho.regular.size(16.0)
         helloLabel.text = "Hello"
         helloLabel.translatesAutoresizingMaskIntoConstraints = false
 

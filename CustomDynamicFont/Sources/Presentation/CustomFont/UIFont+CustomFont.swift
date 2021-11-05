@@ -9,15 +9,14 @@
 import UIKit
 
 extension UIFont {
-    
+
     enum ZenOldMincho: String {
-        
+
         case regular = "ZenOldMincho-Regular"
         case bold = "ZenOldMincho-Bold"
-        
+
         func size(_ size: CGFloat) -> UIFont? {
-            UIFont(name: self.rawValue, size: size)
+            UIFont(name: rawValue, size: size)
         }
     }
 }
-
