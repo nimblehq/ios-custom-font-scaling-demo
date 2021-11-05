@@ -1,12 +1,12 @@
 sources:
-  - {PROJECT_NAME}/Sources
+  - CustomDynamicFont/Sources
 templates:
   - tools/sourcery/templates
 output:
-  {PROJECT_NAME}Tests/Sources/Mocks/Sourcery 
+  CustomDynamicFontTests/Sources/Mocks/Sourcery 
 args:
   autoMockableTestableImports:
-    - {PROJECT_NAME}
+    - CustomDynamicFont
   autoMockableImports:
     - RxSwift
     - RxCocoa
