@@ -3,34 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		197BCD5E32766011586F4CF0 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5D7804769871431829691AA1 /* .gitkeep */; };
 		1D61304F843D44F002D05AEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F3A31F864DAC55782333E /* Constants.swift */; };
-		1FF451F489B70B91906C5E2F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = CA70E4FEEF8455AB2A780AF7 /* .gitkeep */; };
-		25950D82F8E7B318B0FA6504 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C063B8739A90307AA8CEA43C /* .gitkeep */; };
 		276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6044A10B85101A31A3F2C45 /* Color+Application.swift */; };
-		2D81F4D3B1724A6C740DFD8A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 74B049DFB22C53B490A7FC50 /* .gitkeep */; };
 		31828B72443073F0960CF05E /* Pods_CustomDynamicFontTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E2770C1198EAAEF04C4A72 /* Pods_CustomDynamicFontTests.framework */; };
 		31A559868822CE12B3650D75 /* OptionalUnwrapSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DC91FA523E49A6543ED83 /* OptionalUnwrapSpec.swift */; };
 		4C9A8B25B5DB5CCA91688296 /* ApplicationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965F4146BD5E884EF17C6538 /* ApplicationSpec.swift */; };
 		4D43EAB692C4A66B84807C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7106D90B104B3D42EB0BA7 /* AppDelegate.swift */; };
 		548B5A9B5882008248BD1272 /* UIView+Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A83514AFAB04EF8CE36969D /* UIView+Subviews.swift */; };
 		54DFC2996D364B99101BB9CE /* Navigator+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FCC72F6ECC850408E2AC8E /* Navigator+Transition.swift */; };
-		5D97A0344F5CD6C43366BF85 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C35937F8816CBB15BA4C2A45 /* .gitkeep */; };
 		65AD5E1D799921BD069C2B2A /* Optional+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7F853274E6ADFFB4C5AEFB /* Optional+Unwrap.swift */; };
-		695B97E2AB195DE445B9518F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AA6BC6FC9FF023973527B8B6 /* .gitkeep */; };
 		704AFCAE79A5E4976F8BCE5F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0CC5DCAAAF7C1C9B65A15 /* HomeViewController.swift */; };
 		726A9ED7039D668C6B1F9AC8 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0048A697F7EA9C87F9698 /* Typealiases.swift */; };
-		78C68EFE4C54D788CB0D89C1 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6C0F65474FFC20185452D6F2 /* .gitkeep */; };
 		7ED2A47D73BC9D924DD97243 /* NetworkAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B717ADE024458377BB826BC /* NetworkAPIError.swift */; };
 		82732721B0C0E075702FAE4B /* Navigator+Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76EC92E1EC6DB4D31C22B9 /* Navigator+Scene.swift */; };
 		9AA19690A285DBA05C5CF6A2 /* Pods_CustomDynamicFont_CustomDynamicFontUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D947E4D84FE484AEA067008 /* Pods_CustomDynamicFont_CustomDynamicFontUITests.framework */; };
 		A1FBAF4E0002A275142863AB /* NetworkAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51CE40D7C0834507988074F /* NetworkAPIProtocol.swift */; };
-		A8BB5522810947E2920D4EF1 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B8C407EADA1DAC77F8F771CD /* .gitkeep */; };
-		A9286A5FA5C1A1D81784E017 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E0D503444134E292380F6C3E /* .gitkeep */; };
 		C281C47F0570B72A568EED12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E833D795621A259CC50EC4 /* Assets.xcassets */; };
 		CB44D53D3B26BE0A45417C30 /* Pods_CustomDynamicFont.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80C27F7E55B2FE79A63FE91 /* Pods_CustomDynamicFont.framework */; };
 		D075ABFE0F1A55DA4716271B /* Constants+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC78145DBC73324609C4628 /* Constants+API.swift */; };
@@ -38,8 +29,6 @@
 		D261AC5F08F06B321724EB10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8CE10007A6473A9DF7C64B /* LaunchScreen.storyboard */; };
 		D8F2D950BB21310E6F5DB713 /* RequestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E26DA418AE74F1F832800D5 /* RequestConfiguration.swift */; };
 		DFE85932867F7C3D6C4E4E64 /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E7322D5169A16D690B07 /* NetworkAPI.swift */; };
-		E289E0C438C17DD9943AD0B3 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 74A5426A925A39EAC5F22565 /* .gitkeep */; };
-		EC145CF59AC3A589AA728B49 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E0955AFF3524969A6F144134 /* .gitkeep */; };
 		EEB8EAE9F8C808D3B65E9B18 /* UseCaseFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69309831F2647933F87E918 /* UseCaseFactoryProtocol.swift */; };
 		F02FB15953EC1EC78DD2BD50 /* AutoMockable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F613722F16CA6149289A51 /* AutoMockable.generated.swift */; };
 /* End PBXBuildFile section */
@@ -104,12 +93,8 @@
 		4440250ED52CCBB628F07B0F /* CustomDynamicFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDynamicFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A83514AFAB04EF8CE36969D /* UIView+Subviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Subviews.swift"; sourceTree = "<group>"; };
 		5B07181A6834CBD48B9075BD /* Pods-CustomDynamicFont.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFont.debug staging.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFont/Pods-CustomDynamicFont.debug staging.xcconfig"; sourceTree = "<group>"; };
-		5D7804769871431829691AA1 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		5D947E4D84FE484AEA067008 /* Pods_CustomDynamicFont_CustomDynamicFontUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomDynamicFont_CustomDynamicFontUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C0F65474FFC20185452D6F2 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		6DA96B7AEB787DAB0458FBFF /* Pods-CustomDynamicFontTests.debug production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFontTests.debug production.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFontTests/Pods-CustomDynamicFontTests.debug production.xcconfig"; sourceTree = "<group>"; };
-		74A5426A925A39EAC5F22565 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
-		74B049DFB22C53B490A7FC50 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		7AA5A98864C6F4775E7379D3 /* Pods-CustomDynamicFontTests.release production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFontTests.release production.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFontTests/Pods-CustomDynamicFontTests.release production.xcconfig"; sourceTree = "<group>"; };
 		7B717ADE024458377BB826BC /* NetworkAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIError.swift; sourceTree = "<group>"; };
 		7E7106D90B104B3D42EB0BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,23 +107,16 @@
 		9BFD18BB7C339F013837DF85 /* Pods-CustomDynamicFontTests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFontTests.debug staging.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFontTests/Pods-CustomDynamicFontTests.debug staging.xcconfig"; sourceTree = "<group>"; };
 		A5964548F2D40255EBF4BFD5 /* Pods-CustomDynamicFont-CustomDynamicFontUITests.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFont-CustomDynamicFontUITests.release staging.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFont-CustomDynamicFontUITests/Pods-CustomDynamicFont-CustomDynamicFontUITests.release staging.xcconfig"; sourceTree = "<group>"; };
 		A6044A10B85101A31A3F2C45 /* Color+Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Application.swift"; sourceTree = "<group>"; };
-		AA6BC6FC9FF023973527B8B6 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		AAC78145DBC73324609C4628 /* Constants+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants+API.swift"; sourceTree = "<group>"; };
 		AE76EC92E1EC6DB4D31C22B9 /* Navigator+Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigator+Scene.swift"; sourceTree = "<group>"; };
-		B8C407EADA1DAC77F8F771CD /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		BF2B91474BE762DDABF8919A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		C063B8739A90307AA8CEA43C /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		C12EA818871F4C260A7392CD /* Pods-CustomDynamicFont-CustomDynamicFontUITests.release production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFont-CustomDynamicFontUITests.release production.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFont-CustomDynamicFontUITests/Pods-CustomDynamicFont-CustomDynamicFontUITests.release production.xcconfig"; sourceTree = "<group>"; };
 		C2F613722F16CA6149289A51 /* AutoMockable.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMockable.generated.swift; sourceTree = "<group>"; };
-		C35937F8816CBB15BA4C2A45 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		C53268337F263D43E8EE871F /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		C69309831F2647933F87E918 /* UseCaseFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseFactoryProtocol.swift; sourceTree = "<group>"; };
-		CA70E4FEEF8455AB2A780AF7 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		CB7F853274E6ADFFB4C5AEFB /* Optional+Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Unwrap.swift"; sourceTree = "<group>"; };
 		CFB0048A697F7EA9C87F9698 /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
 		D80C27F7E55B2FE79A63FE91 /* Pods_CustomDynamicFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomDynamicFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0955AFF3524969A6F144134 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
-		E0D503444134E292380F6C3E /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		E53FEA2C73712F1903A8B8DA /* Pods-CustomDynamicFont.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFont.release staging.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFont/Pods-CustomDynamicFont.release staging.xcconfig"; sourceTree = "<group>"; };
 		E9E2770C1198EAAEF04C4A72 /* Pods_CustomDynamicFontTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomDynamicFontTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6375DE45722D599B2B6D5D /* CustomDynamicFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDynamicFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,7 +163,6 @@
 		00DDC9E41330D68486DF35F4 /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
-
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
@@ -246,7 +223,6 @@
 		1F2AA03466CE2920D009F2AB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -254,7 +230,6 @@
 		20DD7CF7909F0C144AE7AD7D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -311,7 +286,6 @@
 		2FB4B5C7C416C3E26B1F6B20 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -319,7 +293,6 @@
 		32055BD4536FA9D439611ED5 /* Interceptors */ = {
 			isa = PBXGroup;
 			children = (
-
 			);
 			path = Interceptors;
 			sourceTree = "<group>";
@@ -327,7 +300,6 @@
 		47296EE91A36452BEC6D1331 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -352,7 +324,6 @@
 		5C567E5E560DC291D02AD31E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -396,7 +367,6 @@
 		753DB9EC02C987A0FCB161CB /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -588,7 +558,6 @@
 		C632C6AD2E552799FD8CAE5A /* RequestConfigurations */ = {
 			isa = PBXGroup;
 			children = (
-
 			);
 			path = RequestConfigurations;
 			sourceTree = "<group>";
@@ -596,7 +565,6 @@
 		C952B3F92ACF38F8AE2F0488 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -612,7 +580,6 @@
 		CB1615F4E39821BF432FC13F /* Dummy */ = {
 			isa = PBXGroup;
 			children = (
-
 			);
 			path = Dummy;
 			sourceTree = "<group>";
@@ -682,7 +649,6 @@
 				7AA5A98864C6F4775E7379D3 /* Pods-CustomDynamicFontTests.release production.xcconfig */,
 				401EEE5A1A7DD95CD035FAB5 /* Pods-CustomDynamicFontTests.release staging.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -801,9 +767,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
-
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,7 +774,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,13 +783,6 @@
 			files = (
 				C281C47F0570B72A568EED12 /* Assets.xcassets in Resources */,
 				D261AC5F08F06B321724EB10 /* LaunchScreen.storyboard in Resources */,
-
-
-
-
-
-
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -990,7 +945,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$SRCROOT/$PROJECT_NAME/Sources/Supports/Helpers/R.swift/R.generated.swift",
+				$SRCROOT/$PROJECT_NAME/Sources/Supports/Helpers/R.swift/R.generated.swift,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1044,7 +999,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ -z \"$CI\" ]; then\n    \"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\" --lint --lenient\nfi";
+			shellScript = "if [ -z \"$CI\" ]; then\n    \"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\" --lint --lenient\nfi\n";
 		};
 		D241761DDC6E1DB4105CD0D4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
