@@ -2,8 +2,8 @@
 //  NetworkAPI.swift
 //
 
-import Foundation
 import Alamofire
+import Foundation
 import RxSwift
 
 final class NetworkAPI: NetworkAPIProtocol {
@@ -14,7 +14,7 @@ final class NetworkAPI: NetworkAPIProtocol {
         self.decoder = decoder
     }
 
-    func performRequest<T: Decodable>(_ configuration: RequestConfiguration, for type: T.Type) -> Single<T> {
+    func performRequest<T: Decodable>(_ configuration: RequestConfiguration, for _: T.Type) -> Single<T> {
         request(
             session: Session(),
             configuration: configuration,

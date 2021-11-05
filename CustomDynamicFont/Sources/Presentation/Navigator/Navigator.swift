@@ -15,7 +15,7 @@ protocol Navigatable: AnyObject {
 
 final class Navigator {
 
-    private func viewController(from scene: Scene) -> UIViewController {
+    private func viewController(from _: Scene) -> UIViewController {
         #warning("Create view controllers here")
         return HomeViewController()
     }
@@ -25,7 +25,7 @@ extension Navigator: Navigatable {
 
     func show(scene: Scene, sender: UIViewController?, transition: Transition) {
         let target = viewController(from: scene)
-        if case .root(let window) = transition {
+        if case let .root(window) = transition {
             let snapshotOverlayView = UIScreen.main.snapshotView(afterScreenUpdates: false)
             target.view.addSubview(snapshotOverlayView)
             window?.rootViewController = target
