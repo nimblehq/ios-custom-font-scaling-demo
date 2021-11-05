@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094CFC9C273522A100C3A3AD /* ZenOldMincho-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094CFC9A273522A000C3A3AD /* ZenOldMincho-Regular.ttf */; };
+		094CFC9D273522A100C3A3AD /* ZenOldMincho-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 094CFC9B273522A000C3A3AD /* ZenOldMincho-Bold.ttf */; };
+		094CFCA027352C7F00C3A3AD /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFC9F27352C7F00C3A3AD /* UIFont+CustomFont.swift */; };
 		1D61304F843D44F002D05AEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F3A31F864DAC55782333E /* Constants.swift */; };
 		276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6044A10B85101A31A3F2C45 /* Color+Application.swift */; };
 		31828B72443073F0960CF05E /* Pods_CustomDynamicFontTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E2770C1198EAAEF04C4A72 /* Pods_CustomDynamicFontTests.framework */; };
@@ -84,6 +87,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		094CFC9A273522A000C3A3AD /* ZenOldMincho-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenOldMincho-Regular.ttf"; sourceTree = "<group>"; };
+		094CFC9B273522A000C3A3AD /* ZenOldMincho-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenOldMincho-Bold.ttf"; sourceTree = "<group>"; };
+		094CFC9F27352C7F00C3A3AD /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
 		176F3A31F864DAC55782333E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		181E6FF11063BAB9ED9D2AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		21E833D795621A259CC50EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -175,6 +181,31 @@
 			path = Specs;
 			sourceTree = "<group>";
 		};
+		094CFC982735226C00C3A3AD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				094CFC992735228100C3A3AD /* Zen Old Mincho */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		094CFC992735228100C3A3AD /* Zen Old Mincho */ = {
+			isa = PBXGroup;
+			children = (
+				094CFC9B273522A000C3A3AD /* ZenOldMincho-Bold.ttf */,
+				094CFC9A273522A000C3A3AD /* ZenOldMincho-Regular.ttf */,
+			);
+			path = "Zen Old Mincho";
+			sourceTree = "<group>";
+		};
+		094CFC9E27352C6300C3A3AD /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				094CFC9F27352C7F00C3A3AD /* UIFont+CustomFont.swift */,
+			);
+			path = CustomFont;
+			sourceTree = "<group>";
+		};
 		0E41769EA2614BF50E735096 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +268,7 @@
 		242757E5DACA93E798291482 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				094CFC9E27352C6300C3A3AD /* CustomFont */,
 				C55CBF23BB2C423811E3260E /* Modules */,
 				1C139C51296AF2B9CC08763C /* Navigator */,
 				2FB4B5C7C416C3E26B1F6B20 /* Views */,
@@ -419,6 +451,7 @@
 		90BFB09D99305C4813820807 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				094CFC982735226C00C3A3AD /* Fonts */,
 				2B6FC041BA684355BD7B0BFE /* Assets */,
 				D302FE044F89A1A5E993D16B /* LaunchScreen */,
 			);
@@ -781,6 +814,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094CFC9C273522A100C3A3AD /* ZenOldMincho-Regular.ttf in Resources */,
+				094CFC9D273522A100C3A3AD /* ZenOldMincho-Bold.ttf in Resources */,
 				C281C47F0570B72A568EED12 /* Assets.xcassets in Resources */,
 				D261AC5F08F06B321724EB10 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -1066,6 +1101,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D43EAB692C4A66B84807C68 /* AppDelegate.swift in Sources */,
+				094CFCA027352C7F00C3A3AD /* UIFont+CustomFont.swift in Sources */,
 				D075ABFE0F1A55DA4716271B /* Constants+API.swift in Sources */,
 				1D61304F843D44F002D05AEF /* Constants.swift in Sources */,
 				7ED2A47D73BC9D924DD97243 /* NetworkAPIError.swift in Sources */,
