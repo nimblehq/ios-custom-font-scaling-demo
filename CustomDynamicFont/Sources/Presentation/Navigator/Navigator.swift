@@ -15,8 +15,12 @@ protocol Navigatable: AnyObject {
 
 final class Navigator {
 
-    private func viewController(from _: Scene) -> UIViewController {
-        return HomeViewController()
+    private func viewController(from scene: Scene) -> UIViewController {
+        switch scene {
+        case let .selectOS(viewModel):
+            let selectOSController = SelectOSViewController(viewModel: viewModel, navigator: self)
+            return MainNavigationController(rootViewController: selectOSController)
+        }
     }
 }
 
