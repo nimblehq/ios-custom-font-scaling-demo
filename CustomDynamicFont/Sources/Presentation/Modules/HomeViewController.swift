@@ -18,5 +18,7 @@ final class HomeViewController: UIViewController {
             helloLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             helloLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
+
+        title = "Home"
     }
 }
