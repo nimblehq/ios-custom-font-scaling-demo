@@ -8,15 +8,26 @@
 
 import UIKit
 
+protocol DynamicFont {
+
+    func fontName() -> String
+    func fontSize(style: UIFont.TextStyle) -> CGFloat
+}
+
 extension UIFont {
 
-    enum ZenOldMincho: String {
+    class func customFont(_ font: DynamicFont, forTextStyle style: UIFont.TextStyle) -> UIFont? {
+        guard let customFont = UIFont(name: font.fontName(), size: font.fontSize(style: style)) else { return nil }
+        let metrics = UIFontMetrics(forTextStyle: style)
+        let scaledFont: UIFont
 
-        case regular = "ZenOldMincho-Regular"
-        case bold = "ZenOldMincho-Bold"
-
-        func size(_ size: CGFloat) -> UIFont? {
-            UIFont(name: rawValue, size: size)
+        if #available(iOS 11.0, *) {
+            scaledFont = metrics.scaledFont(for: customFont)
+        } else {
+            #warning("Implement iOS 10 font scaling logic")
+            scaledFont = customFont
         }
+
+        return scaledFont
     }
 }

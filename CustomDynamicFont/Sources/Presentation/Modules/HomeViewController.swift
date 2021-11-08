@@ -7,9 +7,10 @@ final class HomeViewController: UIViewController {
         view.backgroundColor = .white
 
         let helloLabel = UILabel()
-        helloLabel.font = UIFont.ZenOldMincho.regular.size(16.0)
+        helloLabel.font = UIFont.customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body)
         helloLabel.text = "Hello"
         helloLabel.translatesAutoresizingMaskIntoConstraints = false
+        helloLabel.adjustsFontForContentSizeCategory = true
 
         view.addSubview(helloLabel)
 
