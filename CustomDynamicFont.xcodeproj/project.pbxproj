@@ -15,6 +15,12 @@
 		094CFCA82738F42F00C3A3AD /* SelectOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCA72738F42F00C3A3AD /* SelectOSViewController.swift */; };
 		096C312C273E177F009497A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 096C312E273E177F009497A5 /* Localizable.strings */; };
 		096C3132273E18B6009497A5 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C3131273E18B6009497A5 /* R.generated.swift */; };
+		094CFCAC273905FD00C3A3AD /* SelectOSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCAB273905FD00C3A3AD /* SelectOSViewModel.swift */; };
+		094CFCAE2739099800C3A3AD /* OSVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCAD2739099800C3A3AD /* OSVersion.swift */; };
+		094CFCB02739137F00C3A3AD /* OSVersion+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCAF2739137F00C3A3AD /* OSVersion+Title.swift */; };
+		094CFCB2273919F000C3A3AD /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCB1273919F000C3A3AD /* Application.swift */; };
+		094CFCB527391D8400C3A3AD /* Resolver+Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCB427391D8400C3A3AD /* Resolver+Presentation.swift */; };
+		094CFCB727391DBF00C3A3AD /* Resolver+ResolverRegistering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCB627391DBF00C3A3AD /* Resolver+ResolverRegistering.swift */; };
 		1D61304F843D44F002D05AEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F3A31F864DAC55782333E /* Constants.swift */; };
 		276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6044A10B85101A31A3F2C45 /* Color+Application.swift */; };
 		31828B72443073F0960CF05E /* Pods_CustomDynamicFontTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E2770C1198EAAEF04C4A72 /* Pods_CustomDynamicFontTests.framework */; };
@@ -100,6 +106,12 @@
 		094CFCA72738F42F00C3A3AD /* SelectOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOSViewController.swift; sourceTree = "<group>"; };
 		096C312D273E177F009497A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		096C3131273E18B6009497A5 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		094CFCAB273905FD00C3A3AD /* SelectOSViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOSViewModel.swift; sourceTree = "<group>"; };
+		094CFCAD2739099800C3A3AD /* OSVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSVersion.swift; sourceTree = "<group>"; };
+		094CFCAF2739137F00C3A3AD /* OSVersion+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSVersion+Title.swift"; sourceTree = "<group>"; };
+		094CFCB1273919F000C3A3AD /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		094CFCB427391D8400C3A3AD /* Resolver+Presentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+Presentation.swift"; sourceTree = "<group>"; };
+		094CFCB627391DBF00C3A3AD /* Resolver+ResolverRegistering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+ResolverRegistering.swift"; sourceTree = "<group>"; };
 		176F3A31F864DAC55782333E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		181E6FF11063BAB9ED9D2AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		21E833D795621A259CC50EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -229,6 +241,8 @@
 			isa = PBXGroup;
 			children = (
 				094CFCA72738F42F00C3A3AD /* SelectOSViewController.swift */,
+				094CFCAB273905FD00C3A3AD /* SelectOSViewModel.swift */,
+				094CFCAF2739137F00C3A3AD /* OSVersion+Title.swift */,
 			);
 			path = SelectOSViewController;
 			sourceTree = "<group>";
@@ -247,6 +261,15 @@
 				096C3131273E18B6009497A5 /* R.generated.swift */,
 			);
 			path = R.swift;
+			sourceTree = "<group>";
+		};
+		094CFCB327391D6900C3A3AD /* Injection */ = {
+			isa = PBXGroup;
+			children = (
+				094CFCB427391D8400C3A3AD /* Resolver+Presentation.swift */,
+				094CFCB627391DBF00C3A3AD /* Resolver+ResolverRegistering.swift */,
+			);
+			path = Injection;
 			sourceTree = "<group>";
 		};
 		0E41769EA2614BF50E735096 /* Extensions */ = {
@@ -280,6 +303,7 @@
 			isa = PBXGroup;
 			children = (
 				7E7106D90B104B3D42EB0BA7 /* AppDelegate.swift */,
+				094CFCB1273919F000C3A3AD /* Application.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -645,6 +669,7 @@
 		C952B3F92ACF38F8AE2F0488 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				094CFCAD2739099800C3A3AD /* OSVersion.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -671,6 +696,7 @@
 				7C78714EF002CE5966A6AD4A /* Constants */,
 				4924883DF9785DD40D69A7EA /* Data */,
 				784FB7300D41E22DFB57449D /* Domain */,
+				094CFCB327391D6900C3A3AD /* Injection */,
 				242757E5DACA93E798291482 /* Presentation */,
 				67E0E368AE27D7784FB5D401 /* Supports */,
 			);
@@ -1148,16 +1174,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094CFCB2273919F000C3A3AD /* Application.swift in Sources */,
+				094CFCB727391DBF00C3A3AD /* Resolver+ResolverRegistering.swift in Sources */,
+				094CFCAC273905FD00C3A3AD /* SelectOSViewModel.swift in Sources */,
 				4D43EAB692C4A66B84807C68 /* AppDelegate.swift in Sources */,
 				094CFCA027352C7F00C3A3AD /* UIFont+CustomFont.swift in Sources */,
 				D075ABFE0F1A55DA4716271B /* Constants+API.swift in Sources */,
 				1D61304F843D44F002D05AEF /* Constants.swift in Sources */,
 				7ED2A47D73BC9D924DD97243 /* NetworkAPIError.swift in Sources */,
 				A1FBAF4E0002A275142863AB /* NetworkAPIProtocol.swift in Sources */,
+				094CFCB02739137F00C3A3AD /* OSVersion+Title.swift in Sources */,
 				D8F2D950BB21310E6F5DB713 /* RequestConfiguration.swift in Sources */,
+				094CFCB527391D8400C3A3AD /* Resolver+Presentation.swift in Sources */,
 				DFE85932867F7C3D6C4E4E64 /* NetworkAPI.swift in Sources */,
 				096C3132273E18B6009497A5 /* R.generated.swift in Sources */,
 				094CFCA82738F42F00C3A3AD /* SelectOSViewController.swift in Sources */,
+				094CFCAE2739099800C3A3AD /* OSVersion.swift in Sources */,
 				EEB8EAE9F8C808D3B65E9B18 /* UseCaseFactoryProtocol.swift in Sources */,
 				094CFCA52738ED3300C3A3AD /* MainNavigationController.swift in Sources */,
 				094CFCA22738D68400C3A3AD /* ZenOldMincho.swift in Sources */,

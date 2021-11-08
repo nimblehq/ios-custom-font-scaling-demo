@@ -7,6 +7,7 @@ import UIKit
 extension Navigator {
 
     enum Scene {
-        // Define scene
+
+        case selectOS(viewModel: SelectOSViewModelProtocol)
     }
 }
