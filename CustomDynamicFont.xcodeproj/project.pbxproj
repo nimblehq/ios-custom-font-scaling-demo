@@ -1,0 +1,1690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D61304F843D44F002D05AEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F3A31F864DAC55782333E /* Constants.swift */; };
+		276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6044A10B85101A31A3F2C45 /* Color+Application.swift */; };
+		31828B72443073F0960CF05E /* Pods_CustomDynamicFontTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E2770C1198EAAEF04C4A72 /* Pods_CustomDynamicFontTests.framework */; };
+		31A559868822CE12B3650D75 /* OptionalUnwrapSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1DC91FA523E49A6543ED83 /* OptionalUnwrapSpec.swift */; };
+		4C9A8B25B5DB5CCA91688296 /* ApplicationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965F4146BD5E884EF17C6538 /* ApplicationSpec.swift */; };
+		4D43EAB692C4A66B84807C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7106D90B104B3D42EB0BA7 /* AppDelegate.swift */; };
+		548B5A9B5882008248BD1272 /* UIView+Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A83514AFAB04EF8CE36969D /* UIView+Subviews.swift */; };
+		54DFC2996D364B99101BB9CE /* Navigator+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FCC72F6ECC850408E2AC8E /* Navigator+Transition.swift */; };
+		65AD5E1D799921BD069C2B2A /* Optional+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7F853274E6ADFFB4C5AEFB /* Optional+Unwrap.swift */; };
+		704AFCAE79A5E4976F8BCE5F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0CC5DCAAAF7C1C9B65A15 /* HomeViewController.swift */; };
+		726A9ED7039D668C6B1F9AC8 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0048A697F7EA9C87F9698 /* Typealiases.swift */; };
+		7ED2A47D73BC9D924DD97243 /* NetworkAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B717ADE024458377BB826BC /* NetworkAPIError.swift */; };
+		82732721B0C0E075702FAE4B /* Navigator+Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76EC92E1EC6DB4D31C22B9 /* Navigator+Scene.swift */; };
+		9AA19690A285DBA05C5CF6A2 /* Pods_CustomDynamicFont_CustomDynamicFontUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D947E4D84FE484AEA067008 /* Pods_CustomDynamicFont_CustomDynamicFontUITests.framework */; };
+		A1FBAF4E0002A275142863AB /* NetworkAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51CE40D7C0834507988074F /* NetworkAPIProtocol.swift */; };
+		C281C47F0570B72A568EED12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E833D795621A259CC50EC4 /* Assets.xcassets */; };
+		CB44D53D3B26BE0A45417C30 /* Pods_CustomDynamicFont.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80C27F7E55B2FE79A63FE91 /* Pods_CustomDynamicFont.framework */; };
+		D075ABFE0F1A55DA4716271B /* Constants+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC78145DBC73324609C4628 /* Constants+API.swift */; };
+		D11A849720B1157FEBECD912 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53268337F263D43E8EE871F /* Navigator.swift */; };
+		D261AC5F08F06B321724EB10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8CE10007A6473A9DF7C64B /* LaunchScreen.storyboard */; };
+		D8F2D950BB21310E6F5DB713 /* RequestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E26DA418AE74F1F832800D5 /* RequestConfiguration.swift */; };
+		DFE85932867F7C3D6C4E4E64 /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F408E7322D5169A16D690B07 /* NetworkAPI.swift */; };
+		EEB8EAE9F8C808D3B65E9B18 /* UseCaseFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69309831F2647933F87E918 /* UseCaseFactoryProtocol.swift */; };
+		F02FB15953EC1EC78DD2BD50 /* AutoMockable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F613722F16CA6149289A51 /* AutoMockable.generated.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DAFE6731D55B756A551166B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F135F1F6101BE8E699DB00D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61788B3A95DE725444A837F4;
+			remoteInfo = CustomDynamicFont;
+		};
+		D23D62F594FFF79FB55AD7C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F135F1F6101BE8E699DB00D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61788B3A95DE725444A837F4;
+			remoteInfo = CustomDynamicFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		132D9ADCABB79C27E589EE9B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8597F33D19E11EDD93E19B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C12DE11B496431920A06EE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		176F3A31F864DAC55782333E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		181E6FF11063BAB9ED9D2AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		21E833D795621A259CC50EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B8CE10007A6473A9DF7C64B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39B0CC5DCAAAF7C1C9B65A15 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		401EEE5A1A7DD95CD035FAB5 /* Pods-CustomDynamicFontTests.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFontTests.release staging.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFontTests/Pods-CustomDynamicFontTests.release staging.xcconfig"; sourceTree = "<group>"; };
+		4440250ED52CCBB628F07B0F /* CustomDynamicFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDynamicFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A83514AFAB04EF8CE36969D /* UIView+Subviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Subviews.swift"; sourceTree = "<group>"; };
+		5B07181A6834CBD48B9075BD /* Pods-CustomDynamicFont.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFont.debug staging.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFont/Pods-CustomDynamicFont.debug staging.xcconfig"; sourceTree = "<group>"; };
+		5D947E4D84FE484AEA067008 /* Pods_CustomDynamicFont_CustomDynamicFontUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomDynamicFont_CustomDynamicFontUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA96B7AEB787DAB0458FBFF /* Pods-CustomDynamicFontTests.debug production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFontTests.debug production.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFontTests/Pods-CustomDynamicFontTests.debug production.xcconfig"; sourceTree = "<group>"; };
+		7AA5A98864C6F4775E7379D3 /* Pods-CustomDynamicFontTests.release production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFontTests.release production.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFontTests/Pods-CustomDynamicFontTests.release production.xcconfig"; sourceTree = "<group>"; };
+		7B717ADE024458377BB826BC /* NetworkAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIError.swift; sourceTree = "<group>"; };
+		7E7106D90B104B3D42EB0BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E9A13004F11B1F3FE91A808 /* Pods-CustomDynamicFont.release production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFont.release production.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFont/Pods-CustomDynamicFont.release production.xcconfig"; sourceTree = "<group>"; };
+		8740140EBC847846882D7B93 /* CustomDynamicFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDynamicFontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D957CB37097811095423C27 /* DebugStaging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugStaging.xcconfig; sourceTree = "<group>"; };
+		8E26DA418AE74F1F832800D5 /* RequestConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestConfiguration.swift; sourceTree = "<group>"; };
+		8F835A5A36D0B0A86BD02A77 /* Pods-CustomDynamicFont-CustomDynamicFontUITests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFont-CustomDynamicFontUITests.debug staging.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFont-CustomDynamicFontUITests/Pods-CustomDynamicFont-CustomDynamicFontUITests.debug staging.xcconfig"; sourceTree = "<group>"; };
+		965F4146BD5E884EF17C6538 /* ApplicationSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationSpec.swift; sourceTree = "<group>"; };
+		9BFD18BB7C339F013837DF85 /* Pods-CustomDynamicFontTests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFontTests.debug staging.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFontTests/Pods-CustomDynamicFontTests.debug staging.xcconfig"; sourceTree = "<group>"; };
+		A5964548F2D40255EBF4BFD5 /* Pods-CustomDynamicFont-CustomDynamicFontUITests.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFont-CustomDynamicFontUITests.release staging.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFont-CustomDynamicFontUITests/Pods-CustomDynamicFont-CustomDynamicFontUITests.release staging.xcconfig"; sourceTree = "<group>"; };
+		A6044A10B85101A31A3F2C45 /* Color+Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Application.swift"; sourceTree = "<group>"; };
+		AAC78145DBC73324609C4628 /* Constants+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants+API.swift"; sourceTree = "<group>"; };
+		AE76EC92E1EC6DB4D31C22B9 /* Navigator+Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigator+Scene.swift"; sourceTree = "<group>"; };
+		BF2B91474BE762DDABF8919A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C12EA818871F4C260A7392CD /* Pods-CustomDynamicFont-CustomDynamicFontUITests.release production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFont-CustomDynamicFontUITests.release production.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFont-CustomDynamicFontUITests/Pods-CustomDynamicFont-CustomDynamicFontUITests.release production.xcconfig"; sourceTree = "<group>"; };
+		C2F613722F16CA6149289A51 /* AutoMockable.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMockable.generated.swift; sourceTree = "<group>"; };
+		C53268337F263D43E8EE871F /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		C69309831F2647933F87E918 /* UseCaseFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseFactoryProtocol.swift; sourceTree = "<group>"; };
+		CB7F853274E6ADFFB4C5AEFB /* Optional+Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Unwrap.swift"; sourceTree = "<group>"; };
+		CFB0048A697F7EA9C87F9698 /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		D80C27F7E55B2FE79A63FE91 /* Pods_CustomDynamicFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomDynamicFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53FEA2C73712F1903A8B8DA /* Pods-CustomDynamicFont.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFont.release staging.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFont/Pods-CustomDynamicFont.release staging.xcconfig"; sourceTree = "<group>"; };
+		E9E2770C1198EAAEF04C4A72 /* Pods_CustomDynamicFontTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomDynamicFontTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6375DE45722D599B2B6D5D /* CustomDynamicFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDynamicFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00F0C8B45F27C0EBA1EA0E8 /* ReleaseProduction.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleaseProduction.xcconfig; sourceTree = "<group>"; };
+		F408E7322D5169A16D690B07 /* NetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
+		F51CE40D7C0834507988074F /* NetworkAPIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIProtocol.swift; sourceTree = "<group>"; };
+		F804A00BCF4A06F0A577FA90 /* Pods-CustomDynamicFont.debug production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFont.debug production.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFont/Pods-CustomDynamicFont.debug production.xcconfig"; sourceTree = "<group>"; };
+		F9FCC72F6ECC850408E2AC8E /* Navigator+Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigator+Transition.swift"; sourceTree = "<group>"; };
+		FB1DC91FA523E49A6543ED83 /* OptionalUnwrapSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalUnwrapSpec.swift; sourceTree = "<group>"; };
+		FCF7B3EF3B92AAFE3E743559 /* ReleaseStaging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleaseStaging.xcconfig; sourceTree = "<group>"; };
+		FD8489179F0C33F6CCC24D89 /* Pods-CustomDynamicFont-CustomDynamicFontUITests.debug production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFont-CustomDynamicFontUITests.debug production.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFont-CustomDynamicFontUITests/Pods-CustomDynamicFont-CustomDynamicFontUITests.debug production.xcconfig"; sourceTree = "<group>"; };
+		FEB9D18C62BE72C75527B624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FEF0F1D456A1AD6DEE2EEE1E /* DebugProduction.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugProduction.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19D2C01F32099BE9F265E6D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA19690A285DBA05C5CF6A2 /* Pods_CustomDynamicFont_CustomDynamicFontUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E551AE41B64975C03747BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB44D53D3B26BE0A45417C30 /* Pods_CustomDynamicFont.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED1D96B3A08D1F5D777759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31828B72443073F0960CF05E /* Pods_CustomDynamicFontTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00DDC9E41330D68486DF35F4 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		037108C3B44D19055D3E8D1B /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				2535E11BE1F665D7FD1241BC /* Application */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		0E41769EA2614BF50E735096 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9A0D6985642C2C3E506DEB02 /* Foundation */,
+				6E0F055E2A01AEC249C99B92 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		10751EEB07CDFB69AF35BCB8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7B717ADE024458377BB826BC /* NetworkAPIError.swift */,
+				F51CE40D7C0834507988074F /* NetworkAPIProtocol.swift */,
+				8E26DA418AE74F1F832800D5 /* RequestConfiguration.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		121E0810D27A6D21053B9FC0 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				AD83A186C1DB71BCF953DF5B /* Plists */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		12363885B7BCD0D610D22B66 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7E7106D90B104B3D42EB0BA7 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1C139C51296AF2B9CC08763C /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				C53268337F263D43E8EE871F /* Navigator.swift */,
+				AE76EC92E1EC6DB4D31C22B9 /* Navigator+Scene.swift */,
+				F9FCC72F6ECC850408E2AC8E /* Navigator+Transition.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		1F2AA03466CE2920D009F2AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		20DD7CF7909F0C144AE7AD7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		242757E5DACA93E798291482 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C55CBF23BB2C423811E3260E /* Modules */,
+				1C139C51296AF2B9CC08763C /* Navigator */,
+				2FB4B5C7C416C3E26B1F6B20 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2535E11BE1F665D7FD1241BC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				965F4146BD5E884EF17C6538 /* ApplicationSpec.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2B15E21D1E79FC1901F4F7A5 /* NetworkAPI */ = {
+			isa = PBXGroup;
+			children = (
+				10751EEB07CDFB69AF35BCB8 /* Core */,
+				32055BD4536FA9D439611ED5 /* Interceptors */,
+				5C567E5E560DC291D02AD31E /* Models */,
+				C632C6AD2E552799FD8CAE5A /* RequestConfigurations */,
+				F408E7322D5169A16D690B07 /* NetworkAPI.swift */,
+			);
+			path = NetworkAPI;
+			sourceTree = "<group>";
+		};
+		2B6FC041BA684355BD7B0BFE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				21E833D795621A259CC50EC4 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2D6E4CC45D6AD8111946F341 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CB1615F4E39821BF432FC13F /* Dummy */,
+				BA8DCF535B9B7784AB8A25EE /* Mocks */,
+				6E103246A8276C4EEE1070D4 /* Specs */,
+				753DB9EC02C987A0FCB161CB /* Utilities */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2FB4B5C7C416C3E26B1F6B20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32055BD4536FA9D439611ED5 /* Interceptors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interceptors;
+			sourceTree = "<group>";
+		};
+		47296EE91A36452BEC6D1331 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		4924883DF9785DD40D69A7EA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2B15E21D1E79FC1901F4F7A5 /* NetworkAPI */,
+				47296EE91A36452BEC6D1331 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4F8E482CF71EA98107990FB6 /* Sourcery */ = {
+			isa = PBXGroup;
+			children = (
+				C2F613722F16CA6149289A51 /* AutoMockable.generated.swift */,
+			);
+			path = Sourcery;
+			sourceTree = "<group>";
+		};
+		5C567E5E560DC291D02AD31E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E96454BF8FCBC9A1F75A7DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6375DE45722D599B2B6D5D /* CustomDynamicFont.app */,
+				4440250ED52CCBB628F07B0F /* CustomDynamicFontTests.xctest */,
+				8740140EBC847846882D7B93 /* CustomDynamicFontUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E0E368AE27D7784FB5D401 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				0E41769EA2614BF50E735096 /* Extensions */,
+				7E8536B1F271012C43A8F28F /* Helpers */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		6E0F055E2A01AEC249C99B92 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A6044A10B85101A31A3F2C45 /* Color+Application.swift */,
+				5A83514AFAB04EF8CE36969D /* UIView+Subviews.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		6E103246A8276C4EEE1070D4 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				AA99693992730C85AAAC9459 /* Supports */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		753DB9EC02C987A0FCB161CB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		784FB7300D41E22DFB57449D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				C952B3F92ACF38F8AE2F0488 /* Entities */,
+				00DDC9E41330D68486DF35F4 /* Interfaces */,
+				C9F146511F326FAF1E143B19 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		7C78714EF002CE5966A6AD4A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				176F3A31F864DAC55782333E /* Constants.swift */,
+				AAC78145DBC73324609C4628 /* Constants+API.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		7E8536B1F271012C43A8F28F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB6313C882C90772DDB82504 /* Typealiases */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		81976F7B2DD15955FA9A938D /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B91474BE762DDABF8919A /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		8341475779057F542293297C = {
+			isa = PBXGroup;
+			children = (
+				B4C16AA4E1B18173B1536548 /* Project */,
+				9A15344A395564F035862D5A /* Frameworks */,
+				5E96454BF8FCBC9A1F75A7DE /* Products */,
+				F2EBB9CD6D8CB243B1D9CCC5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		90BFB09D99305C4813820807 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B6FC041BA684355BD7B0BFE /* Assets */,
+				D302FE044F89A1A5E993D16B /* LaunchScreen */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A0D6985642C2C3E506DEB02 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F853274E6ADFFB4C5AEFB /* Optional+Unwrap.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		9A15344A395564F035862D5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D80C27F7E55B2FE79A63FE91 /* Pods_CustomDynamicFont.framework */,
+				5D947E4D84FE484AEA067008 /* Pods_CustomDynamicFont_CustomDynamicFontUITests.framework */,
+				E9E2770C1198EAAEF04C4A72 /* Pods_CustomDynamicFontTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C482E7A8C31F6C1C18BCFD4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				037108C3B44D19055D3E8D1B /* Specs */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9EEAC1E0EEFA3F69095010A7 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				AC5053C813BF78A56D74C275 /* Plists */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		AA99693992730C85AAAC9459 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				C3531C2114EA888C4C7B50FB /* Extensions */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		AC5053C813BF78A56D74C275 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				FEB9D18C62BE72C75527B624 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		ACCB2E189E7985286F5EA084 /* XCConfigs */ = {
+			isa = PBXGroup;
+			children = (
+				FEF0F1D456A1AD6DEE2EEE1E /* DebugProduction.xcconfig */,
+				8D957CB37097811095423C27 /* DebugStaging.xcconfig */,
+				F00F0C8B45F27C0EBA1EA0E8 /* ReleaseProduction.xcconfig */,
+				FCF7B3EF3B92AAFE3E743559 /* ReleaseStaging.xcconfig */,
+			);
+			path = XCConfigs;
+			sourceTree = "<group>";
+		};
+		AD83A186C1DB71BCF953DF5B /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				181E6FF11063BAB9ED9D2AFB /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		B3F2B708EE4CDD491288A683 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				81976F7B2DD15955FA9A938D /* Plists */,
+				ACCB2E189E7985286F5EA084 /* XCConfigs */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		B4C16AA4E1B18173B1536548 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				B901C979A3F0E9BA7941F7D1 /* CustomDynamicFont */,
+				F029D970FADFBFE0CA2358C6 /* CustomDynamicFontTests */,
+				EF16D0E20C559613CA27C4A8 /* CustomDynamicFontUITests */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		B901C979A3F0E9BA7941F7D1 /* CustomDynamicFont */ = {
+			isa = PBXGroup;
+			children = (
+				B3F2B708EE4CDD491288A683 /* Configurations */,
+				90BFB09D99305C4813820807 /* Resources */,
+				CCD55B36659090736107FBCF /* Sources */,
+			);
+			path = CustomDynamicFont;
+			sourceTree = "<group>";
+		};
+		BA8DCF535B9B7784AB8A25EE /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				4F8E482CF71EA98107990FB6 /* Sourcery */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		C3531C2114EA888C4C7B50FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C540939904BD8E0EB98176C6 /* Foundation */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C540939904BD8E0EB98176C6 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				FB1DC91FA523E49A6543ED83 /* OptionalUnwrapSpec.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		C55CBF23BB2C423811E3260E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				39B0CC5DCAAAF7C1C9B65A15 /* HomeViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C632C6AD2E552799FD8CAE5A /* RequestConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestConfigurations;
+			sourceTree = "<group>";
+		};
+		C952B3F92ACF38F8AE2F0488 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		C9F146511F326FAF1E143B19 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				C69309831F2647933F87E918 /* UseCaseFactoryProtocol.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		CB1615F4E39821BF432FC13F /* Dummy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dummy;
+			sourceTree = "<group>";
+		};
+		CCD55B36659090736107FBCF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				12363885B7BCD0D610D22B66 /* Application */,
+				7C78714EF002CE5966A6AD4A /* Constants */,
+				4924883DF9785DD40D69A7EA /* Data */,
+				784FB7300D41E22DFB57449D /* Domain */,
+				242757E5DACA93E798291482 /* Presentation */,
+				67E0E368AE27D7784FB5D401 /* Supports */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D302FE044F89A1A5E993D16B /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2B8CE10007A6473A9DF7C64B /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		EB6313C882C90772DDB82504 /* Typealiases */ = {
+			isa = PBXGroup;
+			children = (
+				CFB0048A697F7EA9C87F9698 /* Typealiases.swift */,
+			);
+			path = Typealiases;
+			sourceTree = "<group>";
+		};
+		EF16D0E20C559613CA27C4A8 /* CustomDynamicFontUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EEAC1E0EEFA3F69095010A7 /* Configurations */,
+				20DD7CF7909F0C144AE7AD7D /* Resources */,
+				9C482E7A8C31F6C1C18BCFD4 /* Sources */,
+			);
+			path = CustomDynamicFontUITests;
+			sourceTree = "<group>";
+		};
+		F029D970FADFBFE0CA2358C6 /* CustomDynamicFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				121E0810D27A6D21053B9FC0 /* Configurations */,
+				1F2AA03466CE2920D009F2AB /* Resources */,
+				2D6E4CC45D6AD8111946F341 /* Sources */,
+			);
+			path = CustomDynamicFontTests;
+			sourceTree = "<group>";
+		};
+		F2EBB9CD6D8CB243B1D9CCC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F804A00BCF4A06F0A577FA90 /* Pods-CustomDynamicFont.debug production.xcconfig */,
+				5B07181A6834CBD48B9075BD /* Pods-CustomDynamicFont.debug staging.xcconfig */,
+				7E9A13004F11B1F3FE91A808 /* Pods-CustomDynamicFont.release production.xcconfig */,
+				E53FEA2C73712F1903A8B8DA /* Pods-CustomDynamicFont.release staging.xcconfig */,
+				FD8489179F0C33F6CCC24D89 /* Pods-CustomDynamicFont-CustomDynamicFontUITests.debug production.xcconfig */,
+				8F835A5A36D0B0A86BD02A77 /* Pods-CustomDynamicFont-CustomDynamicFontUITests.debug staging.xcconfig */,
+				C12EA818871F4C260A7392CD /* Pods-CustomDynamicFont-CustomDynamicFontUITests.release production.xcconfig */,
+				A5964548F2D40255EBF4BFD5 /* Pods-CustomDynamicFont-CustomDynamicFontUITests.release staging.xcconfig */,
+				6DA96B7AEB787DAB0458FBFF /* Pods-CustomDynamicFontTests.debug production.xcconfig */,
+				9BFD18BB7C339F013837DF85 /* Pods-CustomDynamicFontTests.debug staging.xcconfig */,
+				7AA5A98864C6F4775E7379D3 /* Pods-CustomDynamicFontTests.release production.xcconfig */,
+				401EEE5A1A7DD95CD035FAB5 /* Pods-CustomDynamicFontTests.release staging.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C4C230756949C892B0F464 /* CustomDynamicFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59FBB4BE51C2E9251543505 /* Build configuration list for PBXNativeTarget "CustomDynamicFontTests" */;
+			buildPhases = (
+				F3E41E310DC73CC4DFB42647 /* [CP] Check Pods Manifest.lock */,
+				DEF1A6CAA015F29C756F3786 /* SwiftFormat */,
+				D06DCA74927A0AC6A7FD006F /* Sources */,
+				1127364CB511132CC6312EF3 /* Resources */,
+				BC14F9191884AC38CFF604A5 /* Embed Precompiled Frameworks */,
+				F7C12DE11B496431920A06EE /* Embed Frameworks */,
+				FDED1D96B3A08D1F5D777759 /* Frameworks */,
+				3472FD8F257762B8D3CE3676 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C52F26CF9BC54C7A7630B77 /* PBXTargetDependency */,
+			);
+			name = CustomDynamicFontTests;
+			productName = CustomDynamicFontTests;
+			productReference = 4440250ED52CCBB628F07B0F /* CustomDynamicFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61788B3A95DE725444A837F4 /* CustomDynamicFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB28F4AC1C687174D1B7A976 /* Build configuration list for PBXNativeTarget "CustomDynamicFont" */;
+			buildPhases = (
+				996BD6B31B48D712DD69527F /* [CP] Check Pods Manifest.lock */,
+				BA91C9B45C6404464AE10383 /* Sourcery */,
+				B21CF3DA8D7F9311119185C2 /* R.swift */,
+				3B0C5718B4EAF847904AF5D9 /* SwiftLint */,
+				C0AEE8E8BB91E5BE58E1494F /* SwiftFormat Lint */,
+				55E01D4A55B4586BF09FFE05 /* Sources */,
+				D18CBD2BF470EA8ED96FAD06 /* Resources */,
+				70E11E1FBBEC6B9E1E5E4C1A /* Embed Precompiled Frameworks */,
+				132D9ADCABB79C27E589EE9B /* Embed Frameworks */,
+				23E551AE41B64975C03747BA /* Frameworks */,
+				0CF1E1DE18302F34E144B1B2 /* Copy GoogleService-Info.plist */,
+				95C6593B0092A87CEF15173C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomDynamicFont;
+			productName = CustomDynamicFont;
+			productReference = EE6375DE45722D599B2B6D5D /* CustomDynamicFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A595279C16602CC1A859463F /* CustomDynamicFontUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA4A2E21758034296D45DA0 /* Build configuration list for PBXNativeTarget "CustomDynamicFontUITests" */;
+			buildPhases = (
+				7451F6D76426FAD49A63B623 /* [CP] Check Pods Manifest.lock */,
+				75C41A1D0616E7C8B413E283 /* Sources */,
+				23E34ACFF665B6DC3C711330 /* Resources */,
+				17E08A91204B9B1A1955C464 /* Embed Precompiled Frameworks */,
+				1D8597F33D19E11EDD93E19B /* Embed Frameworks */,
+				19D2C01F32099BE9F265E6D9 /* Frameworks */,
+				D241761DDC6E1DB4105CD0D4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D302E21482921A7D7FF2130F /* PBXTargetDependency */,
+			);
+			name = CustomDynamicFontUITests;
+			productName = CustomDynamicFontUITests;
+			productReference = 8740140EBC847846882D7B93 /* CustomDynamicFontUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F135F1F6101BE8E699DB00D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Nimble;
+				TargetAttributes = {
+					03C4C230756949C892B0F464 = {
+						TestTargetID = 61788B3A95DE725444A837F4;
+					};
+					A595279C16602CC1A859463F = {
+						TestTargetID = 61788B3A95DE725444A837F4;
+					};
+				};
+			};
+			buildConfigurationList = 4F99CDC926BA20BABFBC1F4B /* Build configuration list for PBXProject "CustomDynamicFont" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8341475779057F542293297C;
+			productRefGroup = 5E96454BF8FCBC9A1F75A7DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61788B3A95DE725444A837F4 /* CustomDynamicFont */,
+				03C4C230756949C892B0F464 /* CustomDynamicFontTests */,
+				A595279C16602CC1A859463F /* CustomDynamicFontUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1127364CB511132CC6312EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E34ACFF665B6DC3C711330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18CBD2BF470EA8ED96FAD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C281C47F0570B72A568EED12 /* Assets.xcassets in Resources */,
+				D261AC5F08F06B321724EB10 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CF1E1DE18302F34E144B1B2 /* Copy GoogleService-Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy GoogleService-Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PATH_TO_GOOGLE_PLISTS=\"$SRCROOT/$PROJECT_NAME/Configurations/Plists/GoogleService\"\n\ncase \"${CONFIGURATION}\" in\n\"Debug Staging\" | \"Release Staging\" )\ncp -r \"$PATH_TO_GOOGLE_PLISTS/Staging/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n;;\n\"Debug Production\" | \"Release Production\" )\ncp -r \"$PATH_TO_GOOGLE_PLISTS/Production/GoogleService-Info.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\"\n;;\n*)\n;;\nesac";
+		};
+		17E08A91204B9B1A1955C464 /* Embed Precompiled Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Precompiled Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Skipping, nothing to be embedded.\"";
+		};
+		3472FD8F257762B8D3CE3676 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomDynamicFontTests/Pods-CustomDynamicFontTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomDynamicFontTests/Pods-CustomDynamicFontTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomDynamicFontTests/Pods-CustomDynamicFontTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B0C5718B4EAF847904AF5D9 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -z \"$CI\" ]; then\n    ${PODS_ROOT}/SwiftLint/swiftlint\nfi";
+		};
+		70E11E1FBBEC6B9E1E5E4C1A /* Embed Precompiled Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Precompiled Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Skipping, nothing to be embedded.\"";
+		};
+		7451F6D76426FAD49A63B623 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomDynamicFont-CustomDynamicFontUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95C6593B0092A87CEF15173C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomDynamicFont/Pods-CustomDynamicFont-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomDynamicFont/Pods-CustomDynamicFont-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomDynamicFont/Pods-CustomDynamicFont-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		996BD6B31B48D712DD69527F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomDynamicFont-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21CF3DA8D7F9311119185C2 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/$PROJECT_NAME/Sources/Supports/Helpers/R.swift/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/$PROJECT_NAME/Sources/Supports/Helpers/R.swift/R.generated.swift\"";
+		};
+		BA91C9B45C6404464AE10383 /* Sourcery */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Sourcery;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/Sourcery/bin/sourcery\"";
+		};
+		BC14F9191884AC38CFF604A5 /* Embed Precompiled Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Precompiled Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Skipping, nothing to be embedded.\"";
+		};
+		C0AEE8E8BB91E5BE58E1494F /* SwiftFormat Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftFormat Lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -z \"$CI\" ]; then\n    \"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\" --lint --lenient\nfi\n";
+		};
+		D241761DDC6E1DB4105CD0D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomDynamicFont-CustomDynamicFontUITests/Pods-CustomDynamicFont-CustomDynamicFontUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomDynamicFont-CustomDynamicFontUITests/Pods-CustomDynamicFont-CustomDynamicFontUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomDynamicFont-CustomDynamicFontUITests/Pods-CustomDynamicFont-CustomDynamicFontUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF1A6CAA015F29C756F3786 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -z \"$CI\" ]; then\n    \"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\"\nfi";
+		};
+		F3E41E310DC73CC4DFB42647 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomDynamicFontTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E01D4A55B4586BF09FFE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D43EAB692C4A66B84807C68 /* AppDelegate.swift in Sources */,
+				D075ABFE0F1A55DA4716271B /* Constants+API.swift in Sources */,
+				1D61304F843D44F002D05AEF /* Constants.swift in Sources */,
+				7ED2A47D73BC9D924DD97243 /* NetworkAPIError.swift in Sources */,
+				A1FBAF4E0002A275142863AB /* NetworkAPIProtocol.swift in Sources */,
+				D8F2D950BB21310E6F5DB713 /* RequestConfiguration.swift in Sources */,
+				DFE85932867F7C3D6C4E4E64 /* NetworkAPI.swift in Sources */,
+				EEB8EAE9F8C808D3B65E9B18 /* UseCaseFactoryProtocol.swift in Sources */,
+				704AFCAE79A5E4976F8BCE5F /* HomeViewController.swift in Sources */,
+				82732721B0C0E075702FAE4B /* Navigator+Scene.swift in Sources */,
+				54DFC2996D364B99101BB9CE /* Navigator+Transition.swift in Sources */,
+				D11A849720B1157FEBECD912 /* Navigator.swift in Sources */,
+				65AD5E1D799921BD069C2B2A /* Optional+Unwrap.swift in Sources */,
+				276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */,
+				548B5A9B5882008248BD1272 /* UIView+Subviews.swift in Sources */,
+				726A9ED7039D668C6B1F9AC8 /* Typealiases.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C41A1D0616E7C8B413E283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9A8B25B5DB5CCA91688296 /* ApplicationSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06DCA74927A0AC6A7FD006F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02FB15953EC1EC78DD2BD50 /* AutoMockable.generated.swift in Sources */,
+				31A559868822CE12B3650D75 /* OptionalUnwrapSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C52F26CF9BC54C7A7630B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CustomDynamicFont;
+			target = 61788B3A95DE725444A837F4 /* CustomDynamicFont */;
+			targetProxy = D23D62F594FFF79FB55AD7C7 /* PBXContainerItemProxy */;
+		};
+		D302E21482921A7D7FF2130F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CustomDynamicFont;
+			target = 61788B3A95DE725444A837F4 /* CustomDynamicFont */;
+			targetProxy = 2DAFE6731D55B756A551166B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E662A97F8A36601525F0F9D /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B07181A6834CBD48B9075BD /* Pods-CustomDynamicFont.debug staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4TWS7E2EPE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CustomDynamicFont/Configurations/Plists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.customdynamicfont;
+				PRODUCT_NAME = CustomDynamicFont;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug Staging";
+		};
+		23F77135EB8A223C3DEBF43A /* Release Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9A13004F11B1F3FE91A808 /* Pods-CustomDynamicFont.release production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4TWS7E2EPE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CustomDynamicFont/Configurations/Plists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.customdynamicfont;
+				PRODUCT_NAME = CustomDynamicFont;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release Production";
+		};
+		2CAED2C88D19B3940040BA42 /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFD18BB7C339F013837DF85 /* Pods-CustomDynamicFontTests.debug staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CustomDynamicFontTests/Configurations/Plists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.customdynamicfont;
+				PRODUCT_NAME = CustomDynamicFontTests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomDynamicFont.app/CustomDynamicFont";
+				TEST_TARGET_NAME = CustomDynamicFont;
+			};
+			name = "Debug Staging";
+		};
+		42DBD8C4FE5D72022CC9E879 /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53FEA2C73712F1903A8B8DA /* Pods-CustomDynamicFont.release staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4TWS7E2EPE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CustomDynamicFont/Configurations/Plists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.customdynamicfont;
+				PRODUCT_NAME = CustomDynamicFont;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release Staging";
+		};
+		4AEA2D7ABEF61237308F3F38 /* Debug Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA96B7AEB787DAB0458FBFF /* Pods-CustomDynamicFontTests.debug production.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CustomDynamicFontTests/Configurations/Plists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.customdynamicfont;
+				PRODUCT_NAME = CustomDynamicFontTests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomDynamicFont.app/CustomDynamicFont";
+				TEST_TARGET_NAME = CustomDynamicFont;
+			};
+			name = "Debug Production";
+		};
+		5944B3B13CF36AC12F021853 /* Release Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12EA818871F4C260A7392CD /* Pods-CustomDynamicFont-CustomDynamicFontUITests.release production.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CustomDynamicFontUITests/Configurations/Plists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.customdynamicfont;
+				PRODUCT_NAME = CustomDynamicFontUITests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomDynamicFont;
+			};
+			name = "Release Production";
+		};
+		737C31CF5B96820097BD5129 /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D957CB37097811095423C27 /* DebugStaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Debug Staging";
+		};
+		8B5369E17C048CEC8CB7DB00 /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401EEE5A1A7DD95CD035FAB5 /* Pods-CustomDynamicFontTests.release staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CustomDynamicFontTests/Configurations/Plists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.customdynamicfont;
+				PRODUCT_NAME = CustomDynamicFontTests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomDynamicFont.app/CustomDynamicFont";
+				TEST_TARGET_NAME = CustomDynamicFont;
+			};
+			name = "Release Staging";
+		};
+		97AA8D887ABC1F0BD64DF020 /* Debug Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F804A00BCF4A06F0A577FA90 /* Pods-CustomDynamicFont.debug production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4TWS7E2EPE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CustomDynamicFont/Configurations/Plists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.customdynamicfont;
+				PRODUCT_NAME = CustomDynamicFont;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug Production";
+		};
+		9CE820123847D4D437539E92 /* Debug Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8489179F0C33F6CCC24D89 /* Pods-CustomDynamicFont-CustomDynamicFontUITests.debug production.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CustomDynamicFontUITests/Configurations/Plists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.customdynamicfont;
+				PRODUCT_NAME = CustomDynamicFontUITests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomDynamicFont;
+			};
+			name = "Debug Production";
+		};
+		A0F4FFCB5D5E1AA824CFF4E1 /* Debug Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF0F1D456A1AD6DEE2EEE1E /* DebugProduction.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Debug Production";
+		};
+		A9EBE550F431B3880A444E51 /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5964548F2D40255EBF4BFD5 /* Pods-CustomDynamicFont-CustomDynamicFontUITests.release staging.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CustomDynamicFontUITests/Configurations/Plists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.customdynamicfont;
+				PRODUCT_NAME = CustomDynamicFontUITests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomDynamicFont;
+			};
+			name = "Release Staging";
+		};
+		AA820BCB9A9A059753A66556 /* Release Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AA5A98864C6F4775E7379D3 /* Pods-CustomDynamicFontTests.release production.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CustomDynamicFontTests/Configurations/Plists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.customdynamicfont;
+				PRODUCT_NAME = CustomDynamicFontTests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomDynamicFont.app/CustomDynamicFont";
+				TEST_TARGET_NAME = CustomDynamicFont;
+			};
+			name = "Release Production";
+		};
+		B2C51453C36437E869DD9912 /* Release Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00F0C8B45F27C0EBA1EA0E8 /* ReleaseProduction.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release Production";
+		};
+		B50098DDEB04DD0FEC9C5D02 /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F835A5A36D0B0A86BD02A77 /* Pods-CustomDynamicFont-CustomDynamicFontUITests.debug staging.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CustomDynamicFontUITests/Configurations/Plists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.nimblehq.customdynamicfont;
+				PRODUCT_NAME = CustomDynamicFontUITests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomDynamicFont;
+			};
+			name = "Debug Staging";
+		};
+		F7669FF29B9AA9F082D6C66F /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF7B3EF3B92AAFE3E743559 /* ReleaseStaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release Staging";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F99CDC926BA20BABFBC1F4B /* Build configuration list for PBXProject "CustomDynamicFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F4FFCB5D5E1AA824CFF4E1 /* Debug Production */,
+				737C31CF5B96820097BD5129 /* Debug Staging */,
+				B2C51453C36437E869DD9912 /* Release Production */,
+				F7669FF29B9AA9F082D6C66F /* Release Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Production";
+		};
+		8CA4A2E21758034296D45DA0 /* Build configuration list for PBXNativeTarget "CustomDynamicFontUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE820123847D4D437539E92 /* Debug Production */,
+				B50098DDEB04DD0FEC9C5D02 /* Debug Staging */,
+				5944B3B13CF36AC12F021853 /* Release Production */,
+				A9EBE550F431B3880A444E51 /* Release Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Production";
+		};
+		A59FBB4BE51C2E9251543505 /* Build configuration list for PBXNativeTarget "CustomDynamicFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEA2D7ABEF61237308F3F38 /* Debug Production */,
+				2CAED2C88D19B3940040BA42 /* Debug Staging */,
+				AA820BCB9A9A059753A66556 /* Release Production */,
+				8B5369E17C048CEC8CB7DB00 /* Release Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Production";
+		};
+		EB28F4AC1C687174D1B7A976 /* Build configuration list for PBXNativeTarget "CustomDynamicFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97AA8D887ABC1F0BD64DF020 /* Debug Production */,
+				1E662A97F8A36601525F0F9D /* Debug Staging */,
+				23F77135EB8A223C3DEBF43A /* Release Production */,
+				42DBD8C4FE5D72022CC9E879 /* Release Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Production";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F135F1F6101BE8E699DB00D0 /* Project object */;
+}
