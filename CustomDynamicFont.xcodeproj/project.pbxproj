@@ -1125,6 +1125,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4TWS7E2EPE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CustomDynamicFont/Configurations/Plists/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -1150,6 +1151,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4TWS7E2EPE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CustomDynamicFont/Configurations/Plists/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -1200,6 +1202,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4TWS7E2EPE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CustomDynamicFont/Configurations/Plists/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -1356,6 +1359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4TWS7E2EPE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CustomDynamicFont/Configurations/Plists/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;

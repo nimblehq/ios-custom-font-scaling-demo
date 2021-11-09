@@ -16,7 +16,6 @@ protocol Navigatable: AnyObject {
 final class Navigator {
 
     private func viewController(from _: Scene) -> UIViewController {
-        #warning("Create view controllers here")
         return HomeViewController()
     }
 }
