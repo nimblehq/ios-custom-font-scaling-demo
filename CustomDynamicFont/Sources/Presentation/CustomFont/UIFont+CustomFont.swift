@@ -24,7 +24,7 @@ extension UIFont {
         if #available(iOS 11.0, *) {
             scaledFont = metrics.scaledFont(for: customFont)
         } else {
-            #warning("Implement iOS 10 font scaling logic")
+            // TODO: Implement iOS 10 font scaling logic
             scaledFont = customFont
         }
 
