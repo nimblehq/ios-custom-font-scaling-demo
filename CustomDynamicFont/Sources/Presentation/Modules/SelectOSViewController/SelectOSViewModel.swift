@@ -52,7 +52,7 @@ final class SelectOSViewModel: SelectOSViewModelProtocol {
             .filter { $0 >= 0 && $0 < versions.count }
             .map { index -> OSVersion in
                 let version = versions[index]
-                return Resolver.resolve(OSVersion.self, args: version)
+                return version
             }
             .asDriver(onErrorJustReturn: .ios10)
     }

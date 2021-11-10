@@ -14,8 +14,16 @@ class MainNavigationController: UINavigationController {
         super.viewDidLoad()
         navigationBar.titleTextAttributes = [
             .font:
-                UIFont.customFont(UIFont.ZenOldMincho.regular, forTextStyle: .caption1) ??
+                UIFont.customFont(UIFont.ZenOldMincho.regular, forTextStyle: .title3) ??
                 .systemFont(ofSize: 14)
         ]
+        UIBarButtonItem.appearance().setTitleTextAttributes(
+            [
+                NSAttributedString.Key.font:
+                    UIFont.customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body) ??
+                    .systemFont(ofSize: 14)
+            ],
+            for: .normal
+        )
     }
 }

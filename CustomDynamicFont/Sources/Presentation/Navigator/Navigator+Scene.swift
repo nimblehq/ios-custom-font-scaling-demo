@@ -9,5 +9,7 @@ extension Navigator {
     enum Scene {
 
         case selectOS(viewModel: SelectOSViewModelProtocol)
+        case iOS10
+        case iOS11Tabbar
     }
 }

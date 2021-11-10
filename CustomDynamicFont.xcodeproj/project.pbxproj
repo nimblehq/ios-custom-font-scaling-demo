@@ -21,6 +21,9 @@
 		094CFCB2273919F000C3A3AD /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCB1273919F000C3A3AD /* Application.swift */; };
 		094CFCB527391D8400C3A3AD /* Resolver+Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCB427391D8400C3A3AD /* Resolver+Presentation.swift */; };
 		094CFCB727391DBF00C3A3AD /* Resolver+ResolverRegistering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCB627391DBF00C3A3AD /* Resolver+ResolverRegistering.swift */; };
+		094CFCD8273BB2AA00C3A3AD /* IOS12SwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCD7273BB2A900C3A3AD /* IOS12SwiftUIViewController.swift */; };
+		094CFCDA273BB2BE00C3A3AD /* IOS11UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCD9273BB2BE00C3A3AD /* IOS11UIKitViewController.swift */; };
+		094CFCDC273BB2CD00C3A3AD /* IOS10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCDB273BB2CD00C3A3AD /* IOS10ViewController.swift */; };
 		1D61304F843D44F002D05AEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F3A31F864DAC55782333E /* Constants.swift */; };
 		276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6044A10B85101A31A3F2C45 /* Color+Application.swift */; };
 		31828B72443073F0960CF05E /* Pods_CustomDynamicFontTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E2770C1198EAAEF04C4A72 /* Pods_CustomDynamicFontTests.framework */; };
@@ -30,7 +33,6 @@
 		548B5A9B5882008248BD1272 /* UIView+Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A83514AFAB04EF8CE36969D /* UIView+Subviews.swift */; };
 		54DFC2996D364B99101BB9CE /* Navigator+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FCC72F6ECC850408E2AC8E /* Navigator+Transition.swift */; };
 		65AD5E1D799921BD069C2B2A /* Optional+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7F853274E6ADFFB4C5AEFB /* Optional+Unwrap.swift */; };
-		704AFCAE79A5E4976F8BCE5F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B0CC5DCAAAF7C1C9B65A15 /* HomeViewController.swift */; };
 		726A9ED7039D668C6B1F9AC8 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0048A697F7EA9C87F9698 /* Typealiases.swift */; };
 		7ED2A47D73BC9D924DD97243 /* NetworkAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B717ADE024458377BB826BC /* NetworkAPIError.swift */; };
 		82732721B0C0E075702FAE4B /* Navigator+Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76EC92E1EC6DB4D31C22B9 /* Navigator+Scene.swift */; };
@@ -112,11 +114,13 @@
 		094CFCB1273919F000C3A3AD /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		094CFCB427391D8400C3A3AD /* Resolver+Presentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+Presentation.swift"; sourceTree = "<group>"; };
 		094CFCB627391DBF00C3A3AD /* Resolver+ResolverRegistering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+ResolverRegistering.swift"; sourceTree = "<group>"; };
+		094CFCD7273BB2A900C3A3AD /* IOS12SwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS12SwiftUIViewController.swift; sourceTree = "<group>"; };
+		094CFCD9273BB2BE00C3A3AD /* IOS11UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS11UIKitViewController.swift; sourceTree = "<group>"; };
+		094CFCDB273BB2CD00C3A3AD /* IOS10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS10ViewController.swift; sourceTree = "<group>"; };
 		176F3A31F864DAC55782333E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		181E6FF11063BAB9ED9D2AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		21E833D795621A259CC50EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B8CE10007A6473A9DF7C64B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		39B0CC5DCAAAF7C1C9B65A15 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		401EEE5A1A7DD95CD035FAB5 /* Pods-CustomDynamicFontTests.release staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDynamicFontTests.release staging.xcconfig"; path = "Target Support Files/Pods-CustomDynamicFontTests/Pods-CustomDynamicFontTests.release staging.xcconfig"; sourceTree = "<group>"; };
 		4440250ED52CCBB628F07B0F /* CustomDynamicFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDynamicFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A83514AFAB04EF8CE36969D /* UIView+Subviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Subviews.swift"; sourceTree = "<group>"; };
@@ -270,6 +274,30 @@
 				094CFCB627391DBF00C3A3AD /* Resolver+ResolverRegistering.swift */,
 			);
 			path = Injection;
+			sourceTree = "<group>";
+		};
+		094CFCD4273BB25E00C3A3AD /* iOS10 */ = {
+			isa = PBXGroup;
+			children = (
+				094CFCDB273BB2CD00C3A3AD /* IOS10ViewController.swift */,
+			);
+			path = iOS10;
+			sourceTree = "<group>";
+		};
+		094CFCD5273BB26900C3A3AD /* iOS11UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				094CFCD9273BB2BE00C3A3AD /* IOS11UIKitViewController.swift */,
+			);
+			path = iOS11UIKit;
+			sourceTree = "<group>";
+		};
+		094CFCD6273BB27400C3A3AD /* iOS12SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				094CFCD7273BB2A900C3A3AD /* IOS12SwiftUIViewController.swift */,
+			);
+			path = iOS12SwiftUI;
 			sourceTree = "<group>";
 		};
 		0E41769EA2614BF50E735096 /* Extensions */ = {
@@ -652,8 +680,10 @@
 		C55CBF23BB2C423811E3260E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				094CFCD6273BB27400C3A3AD /* iOS12SwiftUI */,
+				094CFCD5273BB26900C3A3AD /* iOS11UIKit */,
+				094CFCD4273BB25E00C3A3AD /* iOS10 */,
 				094CFCA32738ED2300C3A3AD /* NavigationController */,
-				39B0CC5DCAAAF7C1C9B65A15 /* HomeViewController.swift */,
 				094CFCA62738F41B00C3A3AD /* SelectOSViewController */,
 			);
 			path = Modules;
@@ -1185,6 +1215,8 @@
 				A1FBAF4E0002A275142863AB /* NetworkAPIProtocol.swift in Sources */,
 				094CFCB02739137F00C3A3AD /* OSVersion+Title.swift in Sources */,
 				D8F2D950BB21310E6F5DB713 /* RequestConfiguration.swift in Sources */,
+				094CFCDC273BB2CD00C3A3AD /* IOS10ViewController.swift in Sources */,
+				094CFCD8273BB2AA00C3A3AD /* IOS12SwiftUIViewController.swift in Sources */,
 				094CFCB527391D8400C3A3AD /* Resolver+Presentation.swift in Sources */,
 				DFE85932867F7C3D6C4E4E64 /* NetworkAPI.swift in Sources */,
 				096C3132273E18B6009497A5 /* R.generated.swift in Sources */,
@@ -1193,10 +1225,10 @@
 				EEB8EAE9F8C808D3B65E9B18 /* UseCaseFactoryProtocol.swift in Sources */,
 				094CFCA52738ED3300C3A3AD /* MainNavigationController.swift in Sources */,
 				094CFCA22738D68400C3A3AD /* ZenOldMincho.swift in Sources */,
-				704AFCAE79A5E4976F8BCE5F /* HomeViewController.swift in Sources */,
 				82732721B0C0E075702FAE4B /* Navigator+Scene.swift in Sources */,
 				54DFC2996D364B99101BB9CE /* Navigator+Transition.swift in Sources */,
 				D11A849720B1157FEBECD912 /* Navigator.swift in Sources */,
+				094CFCDA273BB2BE00C3A3AD /* IOS11UIKitViewController.swift in Sources */,
 				65AD5E1D799921BD069C2B2A /* Optional+Unwrap.swift in Sources */,
 				276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */,
 				548B5A9B5882008248BD1272 /* UIView+Subviews.swift in Sources */,

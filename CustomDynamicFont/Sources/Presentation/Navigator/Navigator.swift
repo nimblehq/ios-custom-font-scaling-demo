@@ -20,6 +20,15 @@ final class Navigator {
         case let .selectOS(viewModel):
             let selectOSController = SelectOSViewController(viewModel: viewModel, navigator: self)
             return MainNavigationController(rootViewController: selectOSController)
+        case .iOS10:
+            return IOS10ViewController()
+        case .iOS11Tabbar:
+            let tabbarController = UITabBarController()
+            tabbarController.setViewControllers(
+                [IOS11UIKitViewController(), IOS12SwiftUIViewController()],
+                animated: false
+            )
+            return tabbarController
         }
     }
 }
