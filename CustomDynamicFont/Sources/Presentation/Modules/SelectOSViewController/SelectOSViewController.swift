@@ -61,6 +61,19 @@ final class SelectOSViewController: UIViewController {
         }
         .disposed(by: disposeBag)
 
+        viewModel.output.didSelectVersion
+            .drive(with: self) {
+                let scene: Navigator.Scene
+                switch $1 {
+                case .ios10:
+                    scene = .iOS10
+                case .iosGreaterAndEqualTo11:
+                    scene = .iOS11Tabbar
+                }
+                $0.navigator?.show(scene: scene, sender: self, transition: .navigation)
+            }
+            .disposed(by: disposeBag)
+
         tableView.rx.setDelegate(self)
             .disposed(by: disposeBag)
     }
@@ -70,5 +83,6 @@ extension SelectOSViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        viewModel.input.selectVersion(indexPath.row)
     }
 }

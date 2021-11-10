@@ -35,7 +35,7 @@ extension UIFont {
             case .subheadline: return 15.0
             case .footnote: return 13.0
             case .caption1: return 12.0
-            case .caption2: return 1.0
+            case .caption2: return 11.0
             default: return 17.0
             }
         }
