@@ -8,7 +8,7 @@ final class HomeViewController: UIViewController {
 
         let helloLabel = UILabel()
         helloLabel.font = UIFont.customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body)
-        helloLabel.text = "Hello"
+        helloLabel.text = R.string.localizable.homeLabelTitle()
         helloLabel.translatesAutoresizingMaskIntoConstraints = false
         helloLabel.adjustsFontForContentSizeCategory = true
 
@@ -19,6 +19,6 @@ final class HomeViewController: UIViewController {
             helloLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
 
-        title = "Home"
+        title = R.string.localizable.homeNavigationTitle()
     }
 }

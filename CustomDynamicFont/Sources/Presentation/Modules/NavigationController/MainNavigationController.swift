@@ -13,7 +13,7 @@ class MainNavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationBar.titleTextAttributes = [
-            NSAttributedString.Key.font:
+            .font:
                 UIFont.customFont(UIFont.ZenOldMincho.regular, forTextStyle: .caption1) ??
                 .systemFont(ofSize: 14)
         ]
