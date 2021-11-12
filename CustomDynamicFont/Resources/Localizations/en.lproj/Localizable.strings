@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  CustomDynamicFont
+
+  Created by Bliss on 12/11/21.
+  Copyright © 2021 Nimble. All rights reserved.
+*/
+"home.navigation.title" = "Home";
+"home.label.title" = "Hello";
+"selectos.navigation.title" = "Dynamic Font";

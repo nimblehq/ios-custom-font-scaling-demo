@@ -13,6 +13,6 @@ final class SelectOSViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        title = "Dynamic Font"
+        title = R.string.localizable.selectosNavigationTitle()
     }
 }
