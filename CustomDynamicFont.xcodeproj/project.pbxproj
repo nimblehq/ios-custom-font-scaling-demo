@@ -25,6 +25,7 @@
 		096C312C273E177F009497A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 096C312E273E177F009497A5 /* Localizable.strings */; };
 		096C3132273E18B6009497A5 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C3131273E18B6009497A5 /* R.generated.swift */; };
 		09B254B6274281E800D3E7F8 /* SelectOSViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */; };
+		096C3134273E293F009497A5 /* UIStackView+Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C3133273E293F009497A5 /* UIStackView+Subviews.swift */; };
 		1D61304F843D44F002D05AEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F3A31F864DAC55782333E /* Constants.swift */; };
 		276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6044A10B85101A31A3F2C45 /* Color+Application.swift */; };
 		31828B72443073F0960CF05E /* Pods_CustomDynamicFontTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E2770C1198EAAEF04C4A72 /* Pods_CustomDynamicFontTests.framework */; };
@@ -119,6 +120,7 @@
 		096C312D273E177F009497A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		096C3131273E18B6009497A5 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOSViewModelSpec.swift; sourceTree = "<group>"; };
+		096C3133273E293F009497A5 /* UIStackView+Subviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Subviews.swift"; sourceTree = "<group>"; };
 		176F3A31F864DAC55782333E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		181E6FF11063BAB9ED9D2AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		21E833D795621A259CC50EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -488,6 +490,7 @@
 			isa = PBXGroup;
 			children = (
 				A6044A10B85101A31A3F2C45 /* Color+Application.swift */,
+				096C3133273E293F009497A5 /* UIStackView+Subviews.swift */,
 				5A83514AFAB04EF8CE36969D /* UIView+Subviews.swift */,
 			);
 			path = UIKit;
@@ -1242,6 +1245,7 @@
 				094CFCDA273BB2BE00C3A3AD /* IOS11UIKitViewController.swift in Sources */,
 				65AD5E1D799921BD069C2B2A /* Optional+Unwrap.swift in Sources */,
 				276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */,
+				096C3134273E293F009497A5 /* UIStackView+Subviews.swift in Sources */,
 				548B5A9B5882008248BD1272 /* UIView+Subviews.swift in Sources */,
 				726A9ED7039D668C6B1F9AC8 /* Typealiases.swift in Sources */,
 			);

@@ -29,7 +29,7 @@ extension UIFont {
             case .title1: return 28.0
             case .title2: return 22.0
             case .title3: return 20.0
-            case .headline: return 17.0
+            case .headline: return 18.0
             case .body: return 17.0
             case .callout: return 16.0
             case .subheadline: return 15.0
