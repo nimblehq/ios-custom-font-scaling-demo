@@ -13,9 +13,9 @@ extension OSVersion {
     func title() -> String {
         switch self {
         case .ios10:
-            return "iOS 10"
+            return R.string.localizable.osversionIos10Title()
         case .iosGreaterAndEqualTo11:
-            return "iOS >=11"
+            return R.string.localizable.osversionIos11Title()
         }
     }
 }

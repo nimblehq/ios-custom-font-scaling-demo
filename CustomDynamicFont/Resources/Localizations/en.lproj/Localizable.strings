@@ -8,3 +8,5 @@
 "home.navigation.title" = "Home";
 "home.label.title" = "Hello";
 "selectos.navigation.title" = "Dynamic Font";
+"osversion.ios10.title" = "iOS 10";
+"osversion.ios11.title" = "iOS >=11";
