@@ -25,7 +25,7 @@ final class Navigator {
         case .iOS11Tabbar:
             let tabbarController = UITabBarController()
             tabbarController.setViewControllers(
-                [IOS11UIKitViewController(), IOS12SwiftUIViewController()],
+                [IOS11UIKitViewController(viewModel: UIKitViewModel()), IOS12SwiftUIViewController()],
                 animated: false
             )
             return tabbarController
