@@ -13,8 +13,6 @@
 		094CFCA22738D68400C3A3AD /* ZenOldMincho.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCA12738D68400C3A3AD /* ZenOldMincho.swift */; };
 		094CFCA52738ED3300C3A3AD /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCA42738ED3300C3A3AD /* MainNavigationController.swift */; };
 		094CFCA82738F42F00C3A3AD /* SelectOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCA72738F42F00C3A3AD /* SelectOSViewController.swift */; };
-		096C312C273E177F009497A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 096C312E273E177F009497A5 /* Localizable.strings */; };
-		096C3132273E18B6009497A5 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C3131273E18B6009497A5 /* R.generated.swift */; };
 		094CFCAC273905FD00C3A3AD /* SelectOSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCAB273905FD00C3A3AD /* SelectOSViewModel.swift */; };
 		094CFCAE2739099800C3A3AD /* OSVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCAD2739099800C3A3AD /* OSVersion.swift */; };
 		094CFCB02739137F00C3A3AD /* OSVersion+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCAF2739137F00C3A3AD /* OSVersion+Title.swift */; };
@@ -24,6 +22,9 @@
 		094CFCD8273BB2AA00C3A3AD /* IOS12SwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCD7273BB2A900C3A3AD /* IOS12SwiftUIViewController.swift */; };
 		094CFCDA273BB2BE00C3A3AD /* IOS11UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCD9273BB2BE00C3A3AD /* IOS11UIKitViewController.swift */; };
 		094CFCDC273BB2CD00C3A3AD /* IOS10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCDB273BB2CD00C3A3AD /* IOS10ViewController.swift */; };
+		096C312C273E177F009497A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 096C312E273E177F009497A5 /* Localizable.strings */; };
+		096C3132273E18B6009497A5 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C3131273E18B6009497A5 /* R.generated.swift */; };
+		09B254B6274281E800D3E7F8 /* SelectOSViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */; };
 		1D61304F843D44F002D05AEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F3A31F864DAC55782333E /* Constants.swift */; };
 		276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6044A10B85101A31A3F2C45 /* Color+Application.swift */; };
 		31828B72443073F0960CF05E /* Pods_CustomDynamicFontTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E2770C1198EAAEF04C4A72 /* Pods_CustomDynamicFontTests.framework */; };
@@ -106,8 +107,6 @@
 		094CFCA12738D68400C3A3AD /* ZenOldMincho.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenOldMincho.swift; sourceTree = "<group>"; };
 		094CFCA42738ED3300C3A3AD /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		094CFCA72738F42F00C3A3AD /* SelectOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOSViewController.swift; sourceTree = "<group>"; };
-		096C312D273E177F009497A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		096C3131273E18B6009497A5 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		094CFCAB273905FD00C3A3AD /* SelectOSViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOSViewModel.swift; sourceTree = "<group>"; };
 		094CFCAD2739099800C3A3AD /* OSVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSVersion.swift; sourceTree = "<group>"; };
 		094CFCAF2739137F00C3A3AD /* OSVersion+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSVersion+Title.swift"; sourceTree = "<group>"; };
@@ -117,6 +116,9 @@
 		094CFCD7273BB2A900C3A3AD /* IOS12SwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS12SwiftUIViewController.swift; sourceTree = "<group>"; };
 		094CFCD9273BB2BE00C3A3AD /* IOS11UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS11UIKitViewController.swift; sourceTree = "<group>"; };
 		094CFCDB273BB2CD00C3A3AD /* IOS10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS10ViewController.swift; sourceTree = "<group>"; };
+		096C312D273E177F009497A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		096C3131273E18B6009497A5 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOSViewModelSpec.swift; sourceTree = "<group>"; };
 		176F3A31F864DAC55782333E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		181E6FF11063BAB9ED9D2AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		21E833D795621A259CC50EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -251,22 +253,6 @@
 			path = SelectOSViewController;
 			sourceTree = "<group>";
 		};
-		096C3129273E1746009497A5 /* Localizations */ = {
-			isa = PBXGroup;
-			children = (
-				096C312E273E177F009497A5 /* Localizable.strings */,
-			);
-			path = Localizations;
-			sourceTree = "<group>";
-		};
-		096C3130273E18B6009497A5 /* R.swift */ = {
-			isa = PBXGroup;
-			children = (
-				096C3131273E18B6009497A5 /* R.generated.swift */,
-			);
-			path = R.swift;
-			sourceTree = "<group>";
-		};
 		094CFCB327391D6900C3A3AD /* Injection */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +284,30 @@
 				094CFCD7273BB2A900C3A3AD /* IOS12SwiftUIViewController.swift */,
 			);
 			path = iOS12SwiftUI;
+			sourceTree = "<group>";
+		};
+		096C3129273E1746009497A5 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				096C312E273E177F009497A5 /* Localizable.strings */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		096C3130273E18B6009497A5 /* R.swift */ = {
+			isa = PBXGroup;
+			children = (
+				096C3131273E18B6009497A5 /* R.generated.swift */,
+			);
+			path = R.swift;
+			sourceTree = "<group>";
+		};
+		09B254B327427FCD00D3E7F8 /* SelectOS */ = {
+			isa = PBXGroup;
+			children = (
+				09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */,
+			);
+			path = SelectOS;
 			sourceTree = "<group>";
 		};
 		0E41769EA2614BF50E735096 /* Extensions */ = {
@@ -486,6 +496,7 @@
 		6E103246A8276C4EEE1070D4 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
+				09B254B327427FCD00D3E7F8 /* SelectOS */,
 				AA99693992730C85AAAC9459 /* Supports */,
 			);
 			path = Specs;
@@ -1249,6 +1260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F02FB15953EC1EC78DD2BD50 /* AutoMockable.generated.swift in Sources */,
+				09B254B6274281E800D3E7F8 /* SelectOSViewModelSpec.swift in Sources */,
 				31A559868822CE12B3650D75 /* OptionalUnwrapSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
