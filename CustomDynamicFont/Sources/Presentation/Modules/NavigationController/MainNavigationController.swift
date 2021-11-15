@@ -19,7 +19,7 @@ class MainNavigationController: UINavigationController {
         ]
         UIBarButtonItem.appearance().setTitleTextAttributes(
             [
-                NSAttributedString.Key.font:
+                .font:
                     UIFont.customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body) ??
                     .systemFont(ofSize: 14)
             ],
