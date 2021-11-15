@@ -129,25 +129,48 @@ extension IOS11UIKitViewController {
         lifecycleLabel.numberOfLines = 0
         commentLabel.numberOfLines = 0
 
-        fontNameLabel.font = .customFont(UIFont.ZenOldMincho.bold, forTextStyle: .headline)
-        versionLabel.font = .customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body)
-        lifecycleLabel.font = .customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body)
-        commentLabel.font = .customFont(UIFont.ZenOldMincho.regular, forTextStyle: .footnote)
-
-        overrideFontLabel.font = .customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body)
-        overrideFontSectionLabel.font = .customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body)
-        overrideFontScaleSectionLabel.font = .customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body)
-        // TODO: Replace in integration
-        overrideFontLabel.text = "placeholder"
-        overrideFontSectionLabel.text = "placeholder"
-        overrideFontScaleSectionLabel.text = "placeholder"
-        overrideFontSegment.insertSegment(withTitle: "1", at: 0, animated: false)
-        overrideFontSegment.insertSegment(withTitle: "2", at: 1, animated: false)
+        setUpFont(fontSize: nil)
 
         imageView.image = R.image.color_Rectangle()
     }
 
+    func setUpFont(fontSize: UIContentSizeCategory?) {
+        fontNameLabel.font = .customFont(UIFont.ZenOldMincho.bold, forTextStyle: .headline, overrideFontSize: fontSize)
+        versionLabel.font = .customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body, overrideFontSize: fontSize)
+        lifecycleLabel.font = .customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body, overrideFontSize: fontSize)
+        commentLabel.font = .customFont(
+            UIFont.ZenOldMincho.regular,
+            forTextStyle: .footnote,
+            overrideFontSize: fontSize
+        )
+
+        overrideFontLabel.font = .customFont(
+            UIFont.ZenOldMincho.regular,
+            forTextStyle: .body,
+            overrideFontSize: fontSize
+        )
+        overrideFontSectionLabel.font = .customFont(
+            UIFont.ZenOldMincho.regular,
+            forTextStyle: .body,
+            overrideFontSize: fontSize
+        )
+        overrideFontScaleSectionLabel.font = .customFont(
+            UIFont.ZenOldMincho.regular,
+            forTextStyle: .body,
+            overrideFontSize: fontSize
+        )
+    }
+
     private func bindViewModel() {
+        bindViewModelLabels()
+        bindViewModelActions()
+    }
+
+    private func bindViewModelLabels() {
+        overrideFontSegment.rx.selectedSegmentIndex
+            .bind(to: viewModel.output.overrideFontOnValue)
+            .disposed(by: disposeBag)
+
         viewModel.output.title.drive(rx.title)
             .disposed(by: disposeBag)
         viewModel.output.fontName.drive(fontNameLabel.rx.text)
@@ -158,5 +181,45 @@ extension IOS11UIKitViewController {
             .disposed(by: disposeBag)
         viewModel.output.caption.drive(commentLabel.rx.text)
             .disposed(by: disposeBag)
+        viewModel.output.overrideFontIsHidding.drive(overrideFontScaleSectionLabel.rx.isHidden)
+            .disposed(by: disposeBag)
+        viewModel.output.overrideFontIsHidding.drive(overrideFontSliderStackView.rx.isHidden)
+            .disposed(by: disposeBag)
+        viewModel.output.overrideFontTitle.drive(overrideFontLabel.rx.text)
+            .disposed(by: disposeBag)
+        viewModel.output.overrideFontScaleTitle.drive(overrideFontScaleSectionLabel.rx.text)
+            .disposed(by: disposeBag)
+        viewModel.output.overrideFontSizeText.drive(overrideFontSectionLabel.rx.text)
+            .disposed(by: disposeBag)
+    }
+
+    private func bindViewModelActions() {
+        viewModel.output.overrideFontSegmentOptions.drive(with: self) {
+            let overrideFontSegment = $0.overrideFontSegment
+            overrideFontSegment.removeAllSegments()
+            $1.forEach { title in
+                overrideFontSegment.insertSegment(withTitle: title, at: 0, animated: false)
+            }
+            overrideFontSegment.selectedSegmentIndex = 0
+        }
+        .disposed(by: disposeBag)
+        viewModel.output.overrideFontSliderOptions.drive(with: self) {
+            let overrideSlider = $0.overrideFontSlider
+            overrideSlider.minimumValue = 0
+            overrideSlider.maximumValue = Float($1.count - 1)
+        }
+        .disposed(by: disposeBag)
+        overrideFontSlider.rx.value
+            .withUnretained(self)
+            .subscribe { owner, value in
+                let rounded = roundf(value)
+                owner.overrideFontSlider.value = rounded
+                owner.viewModel.input.overrideFontSize(Int(rounded))
+            }
+            .disposed(by: disposeBag)
+        viewModel.output.overrideFontSize.drive(with: self) {
+            $0.setUpFont(fontSize: $1)
+        }
+        .disposed(by: disposeBag)
     }
 }
