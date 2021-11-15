@@ -18,6 +18,8 @@ final class SelectOSViewController: UIViewController {
 
     private let viewModel: SelectOSViewModelProtocol
 
+    private let osVersionCellIdentifier = "OSVersionCell"
+
     private weak var navigator: Navigatable?
 
     init(viewModel: SelectOSViewModelProtocol, navigator: Navigatable) {
@@ -49,12 +51,12 @@ final class SelectOSViewController: UIViewController {
         view.backgroundColor = .white
         title = R.string.localizable.selectosNavigationTitle()
 
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: osVersionCellIdentifier)
     }
 
     private func bindViewModel() {
 
-        viewModel.output.items.drive(tableView.rx.items(cellIdentifier: "Cell")) { _, model, cell in
+        viewModel.output.items.drive(tableView.rx.items(cellIdentifier: osVersionCellIdentifier)) { _, model, cell in
             cell.textLabel?.font = UIFont.customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body)
             cell.textLabel?.text = model
         }
