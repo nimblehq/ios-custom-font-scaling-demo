@@ -67,7 +67,7 @@ final class SelectOSViewController: UIViewController {
                 switch $1 {
                 case .ios10:
                     scene = .iOS10
-                case .iosGreaterAndEqualTo11:
+                case .iosGreaterOrEqualTo11:
                     scene = .iOS11Tabbar
                 }
                 $0.navigator?.show(scene: scene, sender: self, transition: .navigation)
