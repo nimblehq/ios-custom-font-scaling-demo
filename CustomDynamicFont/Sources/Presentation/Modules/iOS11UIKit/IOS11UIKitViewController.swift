@@ -6,6 +6,7 @@
 //  Copyright © 2021 Nimble. All rights reserved.
 //
 
+import RxSwift
 import UIKit
 
 final class IOS11UIKitViewController: UIViewController {
@@ -19,10 +20,24 @@ final class IOS11UIKitViewController: UIViewController {
     private let contentView = UIView()
     private let stackView = UIStackView()
 
+    private let disposeBag = DisposeBag()
+
+    private let viewModel: UIKitViewModelProtocol
+
+    init(viewModel: UIKitViewModelProtocol) {
+        self.viewModel = viewModel
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required init?(coder _: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpLayout()
         setUpViews()
+        bindViewModel()
     }
 }
 
@@ -84,11 +99,19 @@ extension IOS11UIKitViewController {
         lifecycleLabel.font = .customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body)
         commentLabel.font = .customFont(UIFont.ZenOldMincho.regular, forTextStyle: .footnote)
 
-        fontNameLabel.text = "Font Name" // TODO: Localize in integration
-        versionLabel.text = R.string.localizable.ios11uikitVersionlabelTitle()
-        lifecycleLabel.text = R.string.localizable.ios11uikitLifecyclelabelTitle()
-        commentLabel.text = R.string.localizable.ios11uikitCommentlabelTitle()
-
         imageView.image = R.image.color_Rectangle()
+    }
+
+    private func bindViewModel() {
+        viewModel.output.title.drive(rx.title)
+            .disposed(by: disposeBag)
+        viewModel.output.fontName.drive(fontNameLabel.rx.text)
+            .disposed(by: disposeBag)
+        viewModel.output.osVersion.drive(versionLabel.rx.text)
+            .disposed(by: disposeBag)
+        viewModel.output.lifecycle.drive(lifecycleLabel.rx.text)
+            .disposed(by: disposeBag)
+        viewModel.output.caption.drive(commentLabel.rx.text)
+            .disposed(by: disposeBag)
     }
 }
