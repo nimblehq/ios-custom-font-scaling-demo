@@ -31,6 +31,7 @@
 		09A81ECF2744B7B3008CBEBD /* UIKitViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A81ECD2744B6C8008CBEBD /* UIKitViewModelSpec.swift */; };
 		09B254B6274281E800D3E7F8 /* SelectOSViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */; };
 		09B254B02742504500D3E7F8 /* UIContentSizeCategory+Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254AF2742504500D3E7F8 /* UIContentSizeCategory+Label.swift */; };
+		09B254B2274273B700D3E7F8 /* UIView+AdjustFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254B1274273B600D3E7F8 /* UIView+AdjustFont.swift */; };
 		1D61304F843D44F002D05AEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F3A31F864DAC55782333E /* Constants.swift */; };
 		276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6044A10B85101A31A3F2C45 /* Color+Application.swift */; };
 		31828B72443073F0960CF05E /* Pods_CustomDynamicFontTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E2770C1198EAAEF04C4A72 /* Pods_CustomDynamicFontTests.framework */; };
@@ -131,6 +132,7 @@
 		09A81ECD2744B6C8008CBEBD /* UIKitViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewModelSpec.swift; sourceTree = "<group>"; };
 		09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOSViewModelSpec.swift; sourceTree = "<group>"; };
 		09B254AF2742504500D3E7F8 /* UIContentSizeCategory+Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentSizeCategory+Label.swift"; sourceTree = "<group>"; };
+		09B254B1274273B600D3E7F8 /* UIView+AdjustFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AdjustFont.swift"; sourceTree = "<group>"; };
 		176F3A31F864DAC55782333E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		181E6FF11063BAB9ED9D2AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		21E833D795621A259CC50EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -512,6 +514,7 @@
 			children = (
 				A6044A10B85101A31A3F2C45 /* Color+Application.swift */,
 				096C3133273E293F009497A5 /* UIStackView+Subviews.swift */,
+				09B254B1274273B600D3E7F8 /* UIView+AdjustFont.swift */,
 				5A83514AFAB04EF8CE36969D /* UIView+Subviews.swift */,
 			);
 			path = UIKit;
@@ -1248,6 +1251,7 @@
 				094CFCA027352C7F00C3A3AD /* UIFont+CustomFont.swift in Sources */,
 				D075ABFE0F1A55DA4716271B /* Constants+API.swift in Sources */,
 				1D61304F843D44F002D05AEF /* Constants.swift in Sources */,
+				09B254B2274273B700D3E7F8 /* UIView+AdjustFont.swift in Sources */,
 				7ED2A47D73BC9D924DD97243 /* NetworkAPIError.swift in Sources */,
 				A1FBAF4E0002A275142863AB /* NetworkAPIProtocol.swift in Sources */,
 				094CFCB02739137F00C3A3AD /* OSVersion+Title.swift in Sources */,
