@@ -14,7 +14,7 @@ extension OSVersion {
         switch self {
         case .ios10:
             return R.string.localizable.osversionIos10Title()
-        case .iosGreaterAndEqualTo11:
+        case .iosGreaterOrEqualTo11:
             return R.string.localizable.osversionIos11Title()
         }
     }
