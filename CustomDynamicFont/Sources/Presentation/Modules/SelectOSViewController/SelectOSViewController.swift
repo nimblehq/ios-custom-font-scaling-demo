@@ -55,7 +55,6 @@ final class SelectOSViewController: UIViewController {
     }
 
     private func bindViewModel() {
-
         viewModel.output.items.drive(tableView.rx.items(cellIdentifier: osVersionCellIdentifier)) { _, model, cell in
             cell.textLabel?.font = UIFont.customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body)
             cell.textLabel?.text = model
