@@ -58,7 +58,7 @@ final class SelectOSViewModel: SelectOSViewModelProtocol {
     }
 }
 
-// MARK: - HomeViewModelInput
+// MARK: - SelectOSViewModelInput
 
 extension SelectOSViewModel: SelectOSViewModelInput {
 
@@ -67,6 +67,6 @@ extension SelectOSViewModel: SelectOSViewModelInput {
     }
 }
 
-// MARK: - HomeViewModelOutput
+// MARK: - SelectOSViewModelOutput
 
 extension SelectOSViewModel: SelectOSViewModelOutput {}
