@@ -13,3 +13,11 @@
 "ios11uikit.commentlabel.title" = "A demo from NimbleHQ";
 "ios11uikit.lifecyclelabel.title" = "UIKit";
 "ios12swiftui.lifecyclelabel.title" = "SwiftUI";
+"ios11uikit.overrideFontTitle.title" = "Override System Font Size";
+"ios11uikit.overrideFontSegmentOptions.on" = "On";
+"ios11uikit.overrideFontSegmentOptions.off" = "Off";
+"ios11uikit.overrideFontScaleTitle.title" = "Override Font Size";
+"overridefontsize.small.label" = "SM";
+"overridefontsize.normal.label" = "MD";
+"overridefontsize.large.label" = "LG";
+"overridefontsize.extraLarge.label" = "XL";
