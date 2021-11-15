@@ -84,10 +84,10 @@ extension IOS11UIKitViewController {
         lifecycleLabel.font = .customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body)
         commentLabel.font = .customFont(UIFont.ZenOldMincho.regular, forTextStyle: .footnote)
 
-        fontNameLabel.text = "Placeholder"
-        versionLabel.text = "Placeholder"
-        lifecycleLabel.text = "Placeholder"
-        commentLabel.text = "Placeholder"
+        fontNameLabel.text = "Font Name" // TODO: Localize in integration
+        versionLabel.text = R.string.localizable.ios11uikitVersionlabelTitle()
+        lifecycleLabel.text = R.string.localizable.ios11uikitLifecyclelabelTitle()
+        commentLabel.text = R.string.localizable.ios11uikitCommentlabelTitle()
 
         imageView.image = R.image.color_Rectangle()
     }
