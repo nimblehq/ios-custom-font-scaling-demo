@@ -45,8 +45,8 @@ final class UIKitViewModel: UIKitViewModelProtocol {
     private let disposeBag = DisposeBag()
 
     init() {
-        title = Driver.just(OSVersion.iosGreaterAndEqualTo11.title())
-        osVersion = Driver.just(OSVersion.iosGreaterAndEqualTo11.title())
+        title = Driver.just(OSVersion.iosGreaterOrEqualTo11.title())
+        osVersion = Driver.just(OSVersion.iosGreaterOrEqualTo11.title())
         fontName = Driver.just(UIFont.ZenOldMincho.regular.fontName())
         lifecycle = Driver.just(Lifecycle.uikit.title())
         caption = Driver.just(R.string.localizable.ios11uikitCommentlabelTitle())
