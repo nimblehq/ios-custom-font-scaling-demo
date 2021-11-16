@@ -5,6 +5,7 @@
 //  Created by Bliss on 15/11/21.
 //  Copyright © 2021 Nimble. All rights reserved.
 //
+// swiftlint:disable closure_body_length
 
 @testable import CustomDynamicFont
 import Nimble
