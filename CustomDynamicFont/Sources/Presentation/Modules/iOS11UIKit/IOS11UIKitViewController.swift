@@ -143,7 +143,7 @@ extension IOS11UIKitViewController {
             overrideFontLabel,
             overrideFontSectionLabel,
             overrideFontScaleSectionLabel,
-            on: fontSize == nil
+            isOn: fontSize == nil
         )
         fontNameLabel.font = .customFont(UIFont.ZenOldMincho.bold, forTextStyle: .headline, overrideFontSize: fontSize)
         versionLabel.font = .customFont(UIFont.ZenOldMincho.regular, forTextStyle: .body, overrideFontSize: fontSize)
