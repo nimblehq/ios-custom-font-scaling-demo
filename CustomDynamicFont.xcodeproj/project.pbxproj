@@ -29,9 +29,9 @@
 		096C316327422B88009497A5 /* Lifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C316227422B88009497A5 /* Lifecycle.swift */; };
 		096C316527422BBD009497A5 /* Lifecycle+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C316427422BBD009497A5 /* Lifecycle+Title.swift */; };
 		09A81ECF2744B7B3008CBEBD /* UIKitViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A81ECD2744B6C8008CBEBD /* UIKitViewModelSpec.swift */; };
-		09B254B6274281E800D3E7F8 /* SelectOSViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */; };
 		09B254B02742504500D3E7F8 /* UIContentSizeCategory+Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254AF2742504500D3E7F8 /* UIContentSizeCategory+Label.swift */; };
 		09B254B2274273B700D3E7F8 /* UIView+AdjustFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254B1274273B600D3E7F8 /* UIView+AdjustFont.swift */; };
+		09B254B6274281E800D3E7F8 /* SelectOSViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */; };
 		1D61304F843D44F002D05AEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F3A31F864DAC55782333E /* Constants.swift */; };
 		276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6044A10B85101A31A3F2C45 /* Color+Application.swift */; };
 		31828B72443073F0960CF05E /* Pods_CustomDynamicFontTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E2770C1198EAAEF04C4A72 /* Pods_CustomDynamicFontTests.framework */; };
@@ -130,9 +130,9 @@
 		096C316227422B88009497A5 /* Lifecycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lifecycle.swift; sourceTree = "<group>"; };
 		096C316427422BBD009497A5 /* Lifecycle+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lifecycle+Title.swift"; sourceTree = "<group>"; };
 		09A81ECD2744B6C8008CBEBD /* UIKitViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewModelSpec.swift; sourceTree = "<group>"; };
-		09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOSViewModelSpec.swift; sourceTree = "<group>"; };
 		09B254AF2742504500D3E7F8 /* UIContentSizeCategory+Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentSizeCategory+Label.swift"; sourceTree = "<group>"; };
 		09B254B1274273B600D3E7F8 /* UIView+AdjustFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AdjustFont.swift"; sourceTree = "<group>"; };
+		09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOSViewModelSpec.swift; sourceTree = "<group>"; };
 		176F3A31F864DAC55782333E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		181E6FF11063BAB9ED9D2AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		21E833D795621A259CC50EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -1146,7 +1146,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/Sourcery/bin/sourcery\"";
+			shellScript = "\"$PODS_ROOT/Sourcery/bin/sourcery\"\n";
 		};
 		BC14F9191884AC38CFF604A5 /* Embed Precompiled Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;

@@ -21,7 +21,7 @@ final class Navigator {
             let selectOSController = SelectOSViewController(viewModel: viewModel, navigator: self)
             return MainNavigationController(rootViewController: selectOSController)
         case .iOS10:
-            return IOS10ViewController()
+            return IOS10ViewController(viewModel: UIKitViewModel())
         case .iOS11Tabbar:
             let tabbarController = UITabBarController()
             tabbarController.setViewControllers(

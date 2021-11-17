@@ -22,10 +22,10 @@ extension UIFont {
         overrideFontSize: UIContentSizeCategory? = nil
     ) -> UIFont? {
         guard let customFont = UIFont(name: font.fontName(), size: font.fontSize(style: style)) else { return nil }
-        let metrics = UIFontMetrics(forTextStyle: style)
         let scaledFont: UIFont
 
         if #available(iOS 11.0, *) {
+            let metrics = UIFontMetrics(forTextStyle: style)
             scaledFont = metrics.scaledFont(
                 for: customFont, compatibleWith: UITraitCollection(
                     preferredContentSizeCategory: overrideFontSize ?? .unspecified
