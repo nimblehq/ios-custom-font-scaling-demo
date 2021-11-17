@@ -48,7 +48,7 @@ final class UIKitViewModel: UIKitViewModelProtocol {
         title = Driver.just(OSVersion.iosGreaterOrEqualTo11.title())
         osVersion = Driver.just(OSVersion.iosGreaterOrEqualTo11.title())
         fontName = Driver.just(UIFont.ZenOldMincho.regular.fontName())
-        lifecycle = Driver.just(Lifecycle.uikit.title())
+        lifecycle = Driver.just(Lifecycle.uiKit.title())
         caption = Driver.just(R.string.localizable.ios11uikitCommentlabelTitle())
     }
 }

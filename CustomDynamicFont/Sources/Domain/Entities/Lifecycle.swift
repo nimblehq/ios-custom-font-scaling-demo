@@ -8,6 +8,6 @@
 
 enum Lifecycle {
 
-    case uikit
-    case swiftui
+    case uiKit
+    case swiftUI
 }
