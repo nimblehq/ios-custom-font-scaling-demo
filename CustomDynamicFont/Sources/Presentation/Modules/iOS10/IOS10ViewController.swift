@@ -13,6 +13,7 @@ import UIKit
 final class IOS10ViewController: IOS10DynamicFontController {
 
     private var uiKitView: UIKitView?
+    private var fontSize: UIContentSizeCategory?
 
     @Injected private var viewModel: UIKitViewModelProtocol
 
@@ -23,8 +24,7 @@ final class IOS10ViewController: IOS10DynamicFontController {
     }
 
     override func updateFonts(notification _: Notification) {
-        // TODO: Add updating font function in integration
-        print("updating font")
+        uiKitView?.setUpFont(fontSize: fontSize)
     }
 }
 
@@ -43,7 +43,15 @@ extension IOS10ViewController {
     }
 
     private func bindViewModel() {
+        viewModel.input.setOS(version: .ios10)
         viewModel.output.title.drive(rx.title)
+            .disposed(by: disposeBag)
+        viewModel.output.overrideFontSize
+            .asObservable()
+            .withUnretained(self)
+            .subscribe { owner, value in
+                owner.fontSize = value
+            }
             .disposed(by: disposeBag)
     }
 }

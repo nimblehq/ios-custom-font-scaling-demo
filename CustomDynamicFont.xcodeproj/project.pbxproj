@@ -32,6 +32,7 @@
 		09A81EF727456961008CBEBD /* DynamicFontController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A81EF627456961008CBEBD /* DynamicFontController.swift */; };
 		09A81EF927456C96008CBEBD /* IOS10DynamicFontController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A81EF827456C96008CBEBD /* IOS10DynamicFontController.swift */; };
 		09A81EFB2745DE5D008CBEBD /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A81EFA2745DE5D008CBEBD /* UIKitView.swift */; };
+		09A81EFD2745E632008CBEBD /* UIFont+DynamicFontIOS10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A81EFC2745E632008CBEBD /* UIFont+DynamicFontIOS10.swift */; };
 		09B254B02742504500D3E7F8 /* UIContentSizeCategory+Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254AF2742504500D3E7F8 /* UIContentSizeCategory+Label.swift */; };
 		09B254B2274273B700D3E7F8 /* UIView+AdjustFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254B1274273B600D3E7F8 /* UIView+AdjustFont.swift */; };
 		09B254B6274281E800D3E7F8 /* SelectOSViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */; };
@@ -136,6 +137,7 @@
 		09A81EF627456961008CBEBD /* DynamicFontController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFontController.swift; sourceTree = "<group>"; };
 		09A81EF827456C96008CBEBD /* IOS10DynamicFontController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS10DynamicFontController.swift; sourceTree = "<group>"; };
 		09A81EFA2745DE5D008CBEBD /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
+		09A81EFC2745E632008CBEBD /* UIFont+DynamicFontIOS10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+DynamicFontIOS10.swift"; sourceTree = "<group>"; };
 		09B254AF2742504500D3E7F8 /* UIContentSizeCategory+Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentSizeCategory+Label.swift"; sourceTree = "<group>"; };
 		09B254B1274273B600D3E7F8 /* UIView+AdjustFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AdjustFont.swift"; sourceTree = "<group>"; };
 		09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOSViewModelSpec.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				094CFC9F27352C7F00C3A3AD /* UIFont+CustomFont.swift */,
+				09A81EFC2745E632008CBEBD /* UIFont+DynamicFontIOS10.swift */,
 				094CFCA12738D68400C3A3AD /* ZenOldMincho.swift */,
 			);
 			path = CustomFont;
@@ -1279,6 +1282,7 @@
 				094CFCA52738ED3300C3A3AD /* MainNavigationController.swift in Sources */,
 				094CFCA22738D68400C3A3AD /* ZenOldMincho.swift in Sources */,
 				09B254B02742504500D3E7F8 /* UIContentSizeCategory+Label.swift in Sources */,
+				09A81EFD2745E632008CBEBD /* UIFont+DynamicFontIOS10.swift in Sources */,
 				82732721B0C0E075702FAE4B /* Navigator+Scene.swift in Sources */,
 				09A81EF927456C96008CBEBD /* IOS10DynamicFontController.swift in Sources */,
 				54DFC2996D364B99101BB9CE /* Navigator+Transition.swift in Sources */,

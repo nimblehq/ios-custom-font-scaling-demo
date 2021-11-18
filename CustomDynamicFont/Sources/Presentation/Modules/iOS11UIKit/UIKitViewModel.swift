@@ -15,6 +15,7 @@ import RxSwift
 protocol UIKitViewModelInput {
 
     func overrideFontSize(_ index: Int)
+    func setOS(version: OSVersion)
 }
 
 // sourcery: AutoMockable
@@ -60,6 +61,7 @@ final class UIKitViewModel: UIKitViewModelProtocol {
 
     private let overrideFontTrigger = PublishRelay<Bool>()
     private let overrideFontSizeTrigger = PublishRelay<UIContentSizeCategory?>()
+    private let versionTrigger = BehaviorRelay<OSVersion>(value: .iosGreaterOrEqualTo11)
     private let overrideFontSizes: [UIContentSizeCategory] = [.small, .medium, .large, .extraLarge]
 
     private var recentOverrideFontSize: UIContentSizeCategory = .medium
@@ -70,8 +72,12 @@ final class UIKitViewModel: UIKitViewModelProtocol {
     private let disposeBag = DisposeBag()
 
     init() {
-        title = Driver.just(OSVersion.iosGreaterOrEqualTo11.title())
-        osVersion = Driver.just(OSVersion.iosGreaterOrEqualTo11.title())
+        title = versionTrigger
+            .map { $0.title() }
+            .asDriver(onErrorJustReturn: OSVersion.iosGreaterOrEqualTo11.title())
+        osVersion = versionTrigger
+            .map { $0.title() }
+            .asDriver(onErrorJustReturn: OSVersion.iosGreaterOrEqualTo11.title())
         fontName = Driver.just(UIFont.ZenOldMincho.regular.fontName())
         lifecycle = Driver.just(Lifecycle.uiKit.title())
         caption = Driver.just(R.string.localizable.ios11UIKitCommentLabelTitle())
@@ -109,6 +115,10 @@ extension UIKitViewModel: UIKitViewModelInput {
     func overrideFontSize(_ index: Int) {
         recentOverrideFontSize = overrideFontSizes[index]
         overrideFontSizeTrigger.accept(overrideFontSizes[index])
+    }
+
+    func setOS(version: OSVersion) {
+        versionTrigger.accept(version)
     }
 }
 
