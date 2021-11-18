@@ -32,8 +32,11 @@ extension UIFont {
                 )
             )
         } else {
-            // TODO: Implement iOS 10 font scaling logic
-            scaledFont = customFont
+            let sizeCategory = overrideFontSize ?? UIApplication.shared.preferredContentSizeCategory
+            guard let fontIOS10 = font as? DynamicFontIOS10,
+                  let customFontIOS10 = fontIOS10.font(for: style, sizeCategory: sizeCategory)
+            else { return customFont }
+            scaledFont = customFontIOS10
         }
 
         return scaledFont

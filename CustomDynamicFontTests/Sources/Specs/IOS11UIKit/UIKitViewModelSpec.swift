@@ -40,13 +40,13 @@ final class UIKitViewModelSpec: QuickSpec {
                 it("returns output with correct title") {
                     expect(viewModel.output.title)
                         .events(scheduler: scheduler, disposeBag: disposeBag)
-                        .to(equal([.next(0, OSVersion.iosGreaterOrEqualTo11.title()), .completed(0)]))
+                        .to(equal([.next(0, OSVersion.iosGreaterOrEqualTo11.title())]))
                 }
 
                 it("returns output with correct osVersion") {
                     expect(viewModel.output.osVersion)
                         .events(scheduler: scheduler, disposeBag: disposeBag)
-                        .to(equal([.next(0, OSVersion.iosGreaterOrEqualTo11.title()), .completed(0)]))
+                        .to(equal([.next(0, OSVersion.iosGreaterOrEqualTo11.title())]))
                 }
 
                 it("returns output with correct fontName") {
@@ -153,6 +153,26 @@ final class UIKitViewModelSpec: QuickSpec {
                     expect(viewModel.output.overrideFontSizeText)
                         .events(scheduler: scheduler, disposeBag: disposeBag)
                         .to(equal([.next(50, UIContentSizeCategory.small.label())]))
+                }
+            }
+
+            context("when input setOS is called") {
+
+                it("returns output correct title and osVersion") {
+                    scheduler.scheduleAt(50) {
+                        viewModel.input.setOS(version: .ios10)
+                    }
+
+                    expect(viewModel.output.title)
+                        .events(scheduler: scheduler, disposeBag: disposeBag)
+                        .to(equal([
+                            .next(0, OSVersion.iosGreaterOrEqualTo11.title()),
+                            .next(50, OSVersion.ios10.title())
+                        ]))
+
+                    expect(viewModel.output.osVersion)
+                        .events(scheduler: scheduler, disposeBag: disposeBag)
+                        .to(equal([.next(50, OSVersion.ios10.title())]))
                 }
             }
         }
