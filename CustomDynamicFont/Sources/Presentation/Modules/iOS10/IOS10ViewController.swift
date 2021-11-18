@@ -24,7 +24,7 @@ final class IOS10ViewController: IOS10DynamicFontController {
         bindViewModel()
     }
 
-    override func updateFonts(notification: Notification) {
+    override func updateFonts(notification _: Notification) {
         print("updating font")
     }
 }

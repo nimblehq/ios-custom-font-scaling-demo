@@ -15,9 +15,9 @@ class IOS10DynamicFontController: UIViewController, DynamicFontController {
         setUpContentSizeNotification()
     }
 
+    func updateFonts(notification _: Notification) {}
+
     deinit {
         removeContentSizeNotification()
     }
-
-    func updateFonts(notification: Notification) {}
 }
