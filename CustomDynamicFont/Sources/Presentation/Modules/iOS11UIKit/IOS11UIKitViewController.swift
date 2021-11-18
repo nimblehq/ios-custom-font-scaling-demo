@@ -6,6 +6,7 @@
 //  Copyright © 2021 Nimble. All rights reserved.
 //
 
+import Resolver
 import RxSwift
 import UIKit
 
@@ -22,16 +23,7 @@ final class IOS11UIKitViewController: UIViewController {
 
     private let disposeBag = DisposeBag()
 
-    private let viewModel: UIKitViewModelProtocol
-
-    init(viewModel: UIKitViewModelProtocol) {
-        self.viewModel = viewModel
-        super.init(nibName: nil, bundle: nil)
-    }
-
-    required init?(coder _: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+    @Injected private var viewModel: UIKitViewModelProtocol
 
     override func viewDidLoad() {
         super.viewDidLoad()
