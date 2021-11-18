@@ -17,6 +17,7 @@ extension Resolver {
 
     private static func registerViewModels() {
         register(SelectOSViewModelProtocol.self) { SelectOSViewModel() }
+        register(UIKitViewModelProtocol.self) { UIKitViewModel() }
     }
 
     private static func registerNavigation() {
