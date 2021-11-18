@@ -29,6 +29,9 @@
 		096C316327422B88009497A5 /* Lifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C316227422B88009497A5 /* Lifecycle.swift */; };
 		096C316527422BBD009497A5 /* Lifecycle+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C316427422BBD009497A5 /* Lifecycle+Title.swift */; };
 		09A81ECF2744B7B3008CBEBD /* UIKitViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A81ECD2744B6C8008CBEBD /* UIKitViewModelSpec.swift */; };
+		09A81EF727456961008CBEBD /* DynamicFontController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A81EF627456961008CBEBD /* DynamicFontController.swift */; };
+		09A81EF927456C96008CBEBD /* IOS10DynamicFontController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A81EF827456C96008CBEBD /* IOS10DynamicFontController.swift */; };
+		09A81EFB2745DE5D008CBEBD /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A81EFA2745DE5D008CBEBD /* UIKitView.swift */; };
 		09B254B02742504500D3E7F8 /* UIContentSizeCategory+Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254AF2742504500D3E7F8 /* UIContentSizeCategory+Label.swift */; };
 		09B254B2274273B700D3E7F8 /* UIView+AdjustFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254B1274273B600D3E7F8 /* UIView+AdjustFont.swift */; };
 		09B254B6274281E800D3E7F8 /* SelectOSViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */; };
@@ -130,6 +133,9 @@
 		096C316227422B88009497A5 /* Lifecycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lifecycle.swift; sourceTree = "<group>"; };
 		096C316427422BBD009497A5 /* Lifecycle+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lifecycle+Title.swift"; sourceTree = "<group>"; };
 		09A81ECD2744B6C8008CBEBD /* UIKitViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewModelSpec.swift; sourceTree = "<group>"; };
+		09A81EF627456961008CBEBD /* DynamicFontController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFontController.swift; sourceTree = "<group>"; };
+		09A81EF827456C96008CBEBD /* IOS10DynamicFontController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS10DynamicFontController.swift; sourceTree = "<group>"; };
+		09A81EFA2745DE5D008CBEBD /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
 		09B254AF2742504500D3E7F8 /* UIContentSizeCategory+Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentSizeCategory+Label.swift"; sourceTree = "<group>"; };
 		09B254B1274273B600D3E7F8 /* UIView+AdjustFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AdjustFont.swift"; sourceTree = "<group>"; };
 		09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOSViewModelSpec.swift; sourceTree = "<group>"; };
@@ -280,6 +286,8 @@
 			isa = PBXGroup;
 			children = (
 				094CFCDB273BB2CD00C3A3AD /* IOS10ViewController.swift */,
+				09A81EF827456C96008CBEBD /* IOS10DynamicFontController.swift */,
+				09A81EF627456961008CBEBD /* DynamicFontController.swift */,
 			);
 			path = iOS10;
 			sourceTree = "<group>";
@@ -291,6 +299,7 @@
 				096C31602742296E009497A5 /* UIKitViewModel.swift */,
 				096C316427422BBD009497A5 /* Lifecycle+Title.swift */,
 				09B254AF2742504500D3E7F8 /* UIContentSizeCategory+Label.swift */,
+				09A81EFA2745DE5D008CBEBD /* UIKitView.swift */,
 			);
 			path = iOS11UIKit;
 			sourceTree = "<group>";
@@ -1263,6 +1272,7 @@
 				096C3132273E18B6009497A5 /* R.generated.swift in Sources */,
 				094CFCA82738F42F00C3A3AD /* SelectOSViewController.swift in Sources */,
 				096C316527422BBD009497A5 /* Lifecycle+Title.swift in Sources */,
+				09A81EFB2745DE5D008CBEBD /* UIKitView.swift in Sources */,
 				094CFCAE2739099800C3A3AD /* OSVersion.swift in Sources */,
 				EEB8EAE9F8C808D3B65E9B18 /* UseCaseFactoryProtocol.swift in Sources */,
 				096C31612742296E009497A5 /* UIKitViewModel.swift in Sources */,
@@ -1270,6 +1280,7 @@
 				094CFCA22738D68400C3A3AD /* ZenOldMincho.swift in Sources */,
 				09B254B02742504500D3E7F8 /* UIContentSizeCategory+Label.swift in Sources */,
 				82732721B0C0E075702FAE4B /* Navigator+Scene.swift in Sources */,
+				09A81EF927456C96008CBEBD /* IOS10DynamicFontController.swift in Sources */,
 				54DFC2996D364B99101BB9CE /* Navigator+Transition.swift in Sources */,
 				D11A849720B1157FEBECD912 /* Navigator.swift in Sources */,
 				094CFCDA273BB2BE00C3A3AD /* IOS11UIKitViewController.swift in Sources */,
@@ -1278,6 +1289,7 @@
 				276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */,
 				096C3134273E293F009497A5 /* UIStackView+Subviews.swift in Sources */,
 				548B5A9B5882008248BD1272 /* UIView+Subviews.swift in Sources */,
+				09A81EF727456961008CBEBD /* DynamicFontController.swift in Sources */,
 				726A9ED7039D668C6B1F9AC8 /* Typealiases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
