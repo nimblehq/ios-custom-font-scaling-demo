@@ -14,8 +14,6 @@ final class IOS10ViewController: IOS10DynamicFontController {
 
     private var uiKitView: UIKitView?
 
-    private let disposeBag = DisposeBag()
-
     @Injected private var viewModel: UIKitViewModelProtocol
 
     override func viewDidLoad() {
@@ -25,6 +23,7 @@ final class IOS10ViewController: IOS10DynamicFontController {
     }
 
     override func updateFonts(notification _: Notification) {
+        // TODO: Add updating font function in integration
         print("updating font")
     }
 }

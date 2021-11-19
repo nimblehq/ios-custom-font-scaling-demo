@@ -6,32 +6,24 @@
 //  Copyright © 2021 Nimble. All rights reserved.
 //
 
+import RxSwift
 import UIKit
 
 protocol DynamicFontController {
 
-    func setUpContentSizeNotification()
-    func removeContentSizeNotification()
+    func setUpContentSizeNotification(disposeBag: DisposeBag)
     func updateFonts(notification: Notification)
 }
 
 extension DynamicFontController where Self: UIViewController {
 
-    func setUpContentSizeNotification() {
-        NotificationCenter.default.addObserver(
-            forName: UIContentSizeCategory.didChangeNotification,
-            object: nil,
-            queue: .main
-        ) { [weak self] notification in
-            self?.updateFonts(notification: notification)
-        }
-    }
-
-    func removeContentSizeNotification() {
-        NotificationCenter.default.removeObserver(
-            self,
-            name: UIContentSizeCategory.didChangeNotification,
-            object: nil
-        )
+    func setUpContentSizeNotification(disposeBag: DisposeBag) {
+        NotificationCenter.default.rx.notification(UIContentSizeCategory.didChangeNotification, object: nil)
+            .withUnretained(self)
+            .take(until: rx.deallocated)
+            .subscribe { owner, value in
+                owner.updateFonts(notification: value)
+            }
+            .disposed(by: disposeBag)
     }
 }
