@@ -11,9 +11,9 @@ extension Lifecycle {
     func title() -> String {
         switch self {
         case .uiKit:
-            return R.string.localizable.ios11uikitLifecyclelabelTitle()
+            return R.string.localizable.ios11UIKitLifecycleLabelTitle()
         case .swiftUI:
-            return R.string.localizable.ios12swiftuiLifecyclelabelTitle()
+            return R.string.localizable.ios12SwiftUILifecycleLabelTitle()
         }
     }
 }

@@ -74,13 +74,13 @@ final class UIKitViewModel: UIKitViewModelProtocol {
         osVersion = Driver.just(OSVersion.iosGreaterOrEqualTo11.title())
         fontName = Driver.just(UIFont.ZenOldMincho.regular.fontName())
         lifecycle = Driver.just(Lifecycle.uiKit.title())
-        caption = Driver.just(R.string.localizable.ios11uikitCommentlabelTitle())
-        overrideFontTitle = Driver.just(R.string.localizable.ios11uikitOverrideFontTitleTitle())
-        overrideFontScaleTitle = Driver.just(R.string.localizable.ios11uikitOverrideFontScaleTitleTitle())
+        caption = Driver.just(R.string.localizable.ios11UIKitCommentLabelTitle())
+        overrideFontTitle = Driver.just(R.string.localizable.ios11UIKitOverrideFontTitleTitle())
+        overrideFontScaleTitle = Driver.just(R.string.localizable.ios11UIKitOverrideFontScaleTitleTitle())
         overrideFontSegmentOptions = Driver.just(
             [
-                R.string.localizable.ios11uikitOverrideFontSegmentOptionsOn(),
-                R.string.localizable.ios11uikitOverrideFontSegmentOptionsOff()
+                R.string.localizable.ios11UIKitOverrideFontSegmentOptionsOn(),
+                R.string.localizable.ios11UIKitOverrideFontSegmentOptionsOff()
             ]
         )
         overrideFontOnValue = BehaviorRelay<Int>(value: 0)
