@@ -2,6 +2,7 @@
 //  Navigator.swift
 //
 
+import SwiftUI
 import UIKit
 
 // sourcery: AutoMockable
@@ -23,9 +24,21 @@ final class Navigator {
         case .iOS10:
             return IOS10ViewController()
         case .iOS11Tabbar:
-            let tabbarController = UITabBarController()
+            let tabbarController = MainTabBarController()
+            let viewControllers: [UIViewController]
+            if #available(iOS 13.0, *) {
+                viewControllers = [
+                    IOS11UIKitViewController(),
+                    IOS12SwiftUIViewController(rootView: DynamicFontSwiftUIView())
+                ]
+            } else {
+                viewControllers = [
+                    IOS11UIKitViewController(),
+                    UIViewController()
+                ]
+            }
             tabbarController.setViewControllers(
-                [IOS11UIKitViewController(), IOS12SwiftUIViewController()],
+                viewControllers,
                 animated: false
             )
             return tabbarController
