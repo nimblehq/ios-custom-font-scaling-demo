@@ -21,7 +21,7 @@ final class IOS11UIKitViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpLayout()
-        bindViewModel()
+        setUpView()
     }
 }
 
@@ -37,10 +37,11 @@ extension IOS11UIKitViewController {
             $0.edges.equalToSuperview()
         }
         self.uiKitView = uiKitView
+        tabBarItem.image = R.image.star()
+        tabBarItem.selectedImage = R.image.starFill()
     }
 
-    private func bindViewModel() {
-        viewModel.output.title.drive(rx.title)
-            .disposed(by: disposeBag)
+    private func setUpView() {
+        title = Lifecycle.uiKit.title()
     }
 }

@@ -6,6 +6,24 @@
 //  Copyright © 2021 Nimble. All rights reserved.
 //
 
+import SwiftUI
 import UIKit
 
-final class IOS12SwiftUIViewController: UIViewController {}
+@available(iOS 13.0, *)
+final class IOS12SwiftUIViewController: UIHostingController<DynamicFontSwiftUIView> {
+
+    @MainActor @objc dynamic required init?(coder _: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
+    override init(rootView: DynamicFontSwiftUIView) {
+        super.init(rootView: rootView)
+        setUpView()
+    }
+
+    private func setUpView() {
+        tabBarItem.title = Lifecycle.swiftUI.title()
+        tabBarItem.image = R.image.star()
+        tabBarItem.selectedImage = R.image.starFill()
+    }
+}
