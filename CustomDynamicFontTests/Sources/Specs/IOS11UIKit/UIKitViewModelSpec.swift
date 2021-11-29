@@ -64,20 +64,20 @@ final class UIKitViewModelSpec: QuickSpec {
                 it("returns output with correct caption") {
                     expect(viewModel.output.caption)
                         .events(scheduler: scheduler, disposeBag: disposeBag)
-                        .to(equal([.next(0, R.string.localizable.ios11uikitCommentlabelTitle()), .completed(0)]))
+                        .to(equal([.next(0, R.string.localizable.ios11UIKitCommentLabelTitle()), .completed(0)]))
                 }
 
                 it("returns output with correct overrideFontTitle") {
                     expect(viewModel.output.overrideFontTitle)
                         .events(scheduler: scheduler, disposeBag: disposeBag)
-                        .to(equal([.next(0, R.string.localizable.ios11uikitOverrideFontTitleTitle()), .completed(0)]))
+                        .to(equal([.next(0, R.string.localizable.ios11UIKitOverrideFontTitleTitle()), .completed(0)]))
                 }
 
                 it("returns output with correct overrideFontScaleTitle") {
                     expect(viewModel.output.overrideFontScaleTitle)
                         .events(scheduler: scheduler, disposeBag: disposeBag)
                         .to(equal([
-                            .next(0, R.string.localizable.ios11uikitOverrideFontScaleTitleTitle()),
+                            .next(0, R.string.localizable.ios11UIKitOverrideFontScaleTitleTitle()),
                             .completed(0)
                         ]))
                 }
@@ -89,8 +89,8 @@ final class UIKitViewModelSpec: QuickSpec {
                             .next(
                                 0,
                                 [
-                                    R.string.localizable.ios11uikitOverrideFontSegmentOptionsOn(),
-                                    R.string.localizable.ios11uikitOverrideFontSegmentOptionsOff()
+                                    R.string.localizable.ios11UIKitOverrideFontSegmentOptionsOn(),
+                                    R.string.localizable.ios11UIKitOverrideFontSegmentOptionsOff()
                                 ]
                             ),
                             .completed(0)
