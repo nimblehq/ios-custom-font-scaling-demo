@@ -12,7 +12,23 @@ import SwiftUI
 struct DynamicFontSwiftUIView: View {
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack(alignment: .center, spacing: 8.0) {
+                Image(uiImage: R.image.color_Rectangle() ?? UIImage())
+                    .resizable()
+                    .frame(width: 260.0, height: 260.0)
+                    .padding(.bottom, 12.0)
+                Text(UIFont.ZenOldMincho.regular.fontName())
+                    .scaledFont(font: UIFont.ZenOldMincho.bold, forTextStyle: .headline)
+                Text(R.string.localizable.osVersionIos13Title())
+                    .scaledFont(font: UIFont.ZenOldMincho.regular, forTextStyle: .body)
+                Text(R.string.localizable.ios12SwiftUILifecycleLabelTitle())
+                    .scaledFont(font: UIFont.ZenOldMincho.regular, forTextStyle: .body)
+                Text(R.string.localizable.ios11UIKitCommentLabelTitle())
+                    .scaledFont(font: UIFont.ZenOldMincho.regular, forTextStyle: .footnote)
+            }
+            .padding([.top, .bottom], 20.0)
+        }
     }
 }
 
