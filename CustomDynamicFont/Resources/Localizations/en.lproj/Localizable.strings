@@ -10,6 +10,7 @@
 "selectOS.navigation.title" = "Dynamic Font";
 "osVersion.ios10.title" = "iOS 10";
 "osVersion.ios11.title" = "iOS >=11";
+"osVersion.ios13.title" = "iOS 13";
 "ios11UIKit.commentLabel.title" = "A demo from NimbleHQ";
 "ios11UIKit.lifecycleLabel.title" = "UIKit";
 "ios12SwiftUI.lifecycleLabel.title" = "SwiftUI";
