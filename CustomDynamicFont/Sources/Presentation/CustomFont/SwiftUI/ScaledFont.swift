@@ -10,6 +10,7 @@ import SwiftUI
 
 @available(iOS 13.0, *)
 struct ScaledFont: ViewModifier {
+
     @Environment(\.sizeCategory) var sizeCategory
     var name: String
     var size: CGFloat
@@ -26,10 +27,11 @@ struct ScaledFont: ViewModifier {
 
 @available(iOS 13.0, *)
 extension View {
+
     func scaledFont(
         font: DynamicFont,
         forTextStyle style: UIFont.TextStyle
     ) -> some View {
-        return self.modifier(ScaledFont(name: font.fontName(), size: font.fontSize(style: style)))
+        return modifier(ScaledFont(name: font.fontName(), size: font.fontSize(style: style)))
     }
 }
