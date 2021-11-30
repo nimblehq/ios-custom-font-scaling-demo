@@ -49,7 +49,7 @@ final class SelectOSViewController: UIViewController {
 
     private func setUpViews() {
         view.backgroundColor = .white
-        title = R.string.localizable.selectosNavigationTitle()
+        title = R.string.localizable.selectOSNavigationTitle()
 
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: osVersionCellIdentifier)
     }

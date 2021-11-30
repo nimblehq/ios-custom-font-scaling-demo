@@ -12,7 +12,10 @@ import RxCocoa
 import RxSwift
 
 // sourcery: AutoMockable
-protocol UIKitViewModelInput {}
+protocol UIKitViewModelInput {
+
+    func overrideFontSize(_ index: Int)
+}
 
 // sourcery: AutoMockable
 protocol UIKitViewModelOutput {
@@ -22,6 +25,14 @@ protocol UIKitViewModelOutput {
     var fontName: Driver<String> { get }
     var lifecycle: Driver<String> { get }
     var caption: Driver<String> { get }
+    var overrideFontTitle: Driver<String> { get }
+    var overrideFontIsHidding: Driver<Bool> { get }
+    var overrideFontScaleTitle: Driver<String> { get }
+    var overrideFontSegmentOptions: Driver<[String]> { get }
+    var overrideFontOnValue: BehaviorRelay<Int> { get }
+    var overrideFontSliderOptions: Driver<[UIContentSizeCategory]> { get }
+    var overrideFontSize: Driver<UIContentSizeCategory?> { get }
+    var overrideFontSizeText: Driver<String> { get }
 }
 
 // sourcery: AutoMockable
@@ -38,6 +49,20 @@ final class UIKitViewModel: UIKitViewModelProtocol {
     var fontName: Driver<String>
     var lifecycle: Driver<String>
     var caption: Driver<String>
+    var overrideFontTitle: Driver<String>
+    var overrideFontIsHidding: Driver<Bool>
+    var overrideFontScaleTitle: Driver<String>
+    var overrideFontSegmentOptions: Driver<[String]>
+    var overrideFontOnValue: BehaviorRelay<Int>
+    var overrideFontSliderOptions: Driver<[UIContentSizeCategory]>
+    var overrideFontSize: Driver<UIContentSizeCategory?>
+    var overrideFontSizeText: Driver<String>
+
+    private let overrideFontTrigger = PublishRelay<Bool>()
+    private let overrideFontSizeTrigger = PublishRelay<UIContentSizeCategory?>()
+    private let overrideFontSizes: [UIContentSizeCategory] = [.small, .medium, .large, .extraLarge]
+
+    private var recentOverrideFontSize: UIContentSizeCategory = .medium
 
     var input: UIKitViewModelInput { self }
     var output: UIKitViewModelOutput { self }
@@ -49,13 +74,43 @@ final class UIKitViewModel: UIKitViewModelProtocol {
         osVersion = Driver.just(OSVersion.iosGreaterOrEqualTo11.title())
         fontName = Driver.just(UIFont.ZenOldMincho.regular.fontName())
         lifecycle = Driver.just(Lifecycle.uiKit.title())
-        caption = Driver.just(R.string.localizable.ios11uikitCommentlabelTitle())
+        caption = Driver.just(R.string.localizable.ios11UIKitCommentLabelTitle())
+        overrideFontTitle = Driver.just(R.string.localizable.ios11UIKitOverrideFontTitleTitle())
+        overrideFontScaleTitle = Driver.just(R.string.localizable.ios11UIKitOverrideFontScaleTitleTitle())
+        overrideFontSegmentOptions = Driver.just(
+            [
+                R.string.localizable.ios11UIKitOverrideFontSegmentOptionsOn(),
+                R.string.localizable.ios11UIKitOverrideFontSegmentOptionsOff()
+            ]
+        )
+        overrideFontOnValue = BehaviorRelay<Int>(value: 0)
+        overrideFontIsHidding = overrideFontOnValue.map { $0 != 1 }.asDriver(onErrorJustReturn: false)
+        overrideFontSliderOptions = Driver.just(overrideFontSizes)
+        overrideFontSize = overrideFontSizeTrigger.asDriver(onErrorJustReturn: .unspecified)
+        overrideFontSizeText = overrideFontSizeTrigger
+            .compactMap { $0?.label() }
+            .asDriver(onErrorJustReturn: "")
+        overrideFontOnValue.withUnretained(self)
+            .subscribe { owner, value in
+                if value == 0 {
+                    owner.overrideFontSizeTrigger.accept(nil)
+                } else {
+                    owner.overrideFontSizeTrigger.accept(owner.recentOverrideFontSize)
+                }
+            }
+            .disposed(by: disposeBag)
     }
 }
 
 // MARK: - UIKitViewModelInput
 
-extension UIKitViewModel: UIKitViewModelInput {}
+extension UIKitViewModel: UIKitViewModelInput {
+
+    func overrideFontSize(_ index: Int) {
+        recentOverrideFontSize = overrideFontSizes[index]
+        overrideFontSizeTrigger.accept(overrideFontSizes[index])
+    }
+}
 
 // MARK: - UIKitViewModelOutput
 

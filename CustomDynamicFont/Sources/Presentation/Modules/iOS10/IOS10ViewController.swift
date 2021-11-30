@@ -6,6 +6,44 @@
 //  Copyright © 2021 Nimble. All rights reserved.
 //
 
+import Resolver
+import RxSwift
 import UIKit
 
-final class IOS10ViewController: UIViewController {}
+final class IOS10ViewController: IOS10DynamicFontController {
+
+    private var uiKitView: UIKitView?
+
+    @Injected private var viewModel: UIKitViewModelProtocol
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setUpLayout()
+        bindViewModel()
+    }
+
+    override func updateFonts(notification _: Notification) {
+        // TODO: Add updating font function in integration
+        print("updating font")
+    }
+}
+
+// MARK: - Private
+
+extension IOS10ViewController {
+
+    private func setUpLayout() {
+        let uiKitView = UIKitView(viewModel: viewModel)
+        view.addSubview(uiKitView)
+
+        uiKitView.snp.makeConstraints {
+            $0.edges.equalToSuperview()
+        }
+        self.uiKitView = uiKitView
+    }
+
+    private func bindViewModel() {
+        viewModel.output.title.drive(rx.title)
+            .disposed(by: disposeBag)
+    }
+}
