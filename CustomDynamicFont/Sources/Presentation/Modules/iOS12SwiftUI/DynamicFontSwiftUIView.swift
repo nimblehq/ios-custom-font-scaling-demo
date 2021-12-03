@@ -12,11 +12,12 @@ import SwiftUI
 
 @available(iOS 13.0.0, *)
 struct DynamicFontSwiftUIView: View {
-    
+
     @State private var fontSliderValue: Double = 1.0
-    @State private var selectedOverrideOption = 0
+    @State private var selectedOverrideOption: OverridingFont = .isOff
     @State private var fontSize: ContentSizeCategory?
     private let overrideFontSizes: [ContentSizeCategory] = [.small, .medium, .large, .extraLarge]
+    private let overridingFontOptions: [OverridingFont] = [.isOff, .isOn]
 
     var body: some View {
         ScrollView {
@@ -46,14 +47,15 @@ struct DynamicFontSwiftUIView: View {
                         Picker(
                             selection: $selectedOverrideOption,
                             content: {
-                                Text(R.string.localizable.ios11UIKitOverrideFontSegmentOptionsOff()).tag(0)
-                                Text(R.string.localizable.ios11UIKitOverrideFontSegmentOptionsOn()).tag(1)
+                                ForEach(overridingFontOptions, id: \.self) {
+                                    Text($0.title()).tag($0)
+                                }
                             },
                             label: {}
                         )
                         .pickerStyle(.segmented)
 
-                        if selectedOverrideOption == 1 {
+                        if selectedOverrideOption == .isOn {
                             Spacer(minLength: 4.0)
 
                             Text(R.string.localizable.ios11UIKitOverrideFontTitleTitle())
@@ -87,7 +89,7 @@ struct DynamicFontSwiftUIView: View {
             .padding(.horizontal, 16.0)
             .padding([.top, .bottom], 20.0)
             .onReceive(Just(selectedOverrideOption), perform: { value in
-                fontSize = value == 1 ? overrideFontSizes[Int(fontSliderValue)] : nil
+                fontSize = value == .isOn ? overrideFontSizes[Int(fontSliderValue)] : nil
             })
         }
     }
