@@ -40,6 +40,8 @@
 		09B254B02742504500D3E7F8 /* UIContentSizeCategory+Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254AF2742504500D3E7F8 /* UIContentSizeCategory+Label.swift */; };
 		09B254B2274273B700D3E7F8 /* UIView+AdjustFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254B1274273B600D3E7F8 /* UIView+AdjustFont.swift */; };
 		09B254B6274281E800D3E7F8 /* SelectOSViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */; };
+		09D3BF392759BAEB001545DF /* OverridingFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3BF382759BAEB001545DF /* OverridingFont.swift */; };
+		09D3BF3B2759BB1F001545DF /* OverridingFont+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3BF3A2759BB1F001545DF /* OverridingFont+Title.swift */; };
 		1D61304F843D44F002D05AEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176F3A31F864DAC55782333E /* Constants.swift */; };
 		276AF12532733ED2804B89C3 /* Color+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6044A10B85101A31A3F2C45 /* Color+Application.swift */; };
 		31828B72443073F0960CF05E /* Pods_CustomDynamicFontTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E2770C1198EAAEF04C4A72 /* Pods_CustomDynamicFontTests.framework */; };
@@ -149,6 +151,8 @@
 		09B254AF2742504500D3E7F8 /* UIContentSizeCategory+Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentSizeCategory+Label.swift"; sourceTree = "<group>"; };
 		09B254B1274273B600D3E7F8 /* UIView+AdjustFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AdjustFont.swift"; sourceTree = "<group>"; };
 		09B254B427427FE000D3E7F8 /* SelectOSViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOSViewModelSpec.swift; sourceTree = "<group>"; };
+		09D3BF382759BAEB001545DF /* OverridingFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverridingFont.swift; sourceTree = "<group>"; };
+		09D3BF3A2759BB1F001545DF /* OverridingFont+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OverridingFont+Title.swift"; sourceTree = "<group>"; };
 		176F3A31F864DAC55782333E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		181E6FF11063BAB9ED9D2AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		21E833D795621A259CC50EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -322,6 +326,7 @@
 				094CFCD7273BB2A900C3A3AD /* IOS12SwiftUIViewController.swift */,
 				097002882754E9ED002217F1 /* DynamicFontSwiftUIView.swift */,
 				0970028D2755F1E7002217F1 /* ContentSizeCategory+Label.swift */,
+				09D3BF3A2759BB1F001545DF /* OverridingFont+Title.swift */,
 			);
 			path = iOS12SwiftUI;
 			sourceTree = "<group>";
@@ -780,6 +785,7 @@
 			children = (
 				094CFCAD2739099800C3A3AD /* OSVersion.swift */,
 				096C316227422B88009497A5 /* Lifecycle.swift */,
+				09D3BF382759BAEB001545DF /* OverridingFont.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -1315,6 +1321,7 @@
 				09B254B02742504500D3E7F8 /* UIContentSizeCategory+Label.swift in Sources */,
 				09A81EFD2745E632008CBEBD /* UIFont+DynamicFontIOS10.swift in Sources */,
 				82732721B0C0E075702FAE4B /* Navigator+Scene.swift in Sources */,
+				09D3BF392759BAEB001545DF /* OverridingFont.swift in Sources */,
 				09A81EF927456C96008CBEBD /* IOS10DynamicFontController.swift in Sources */,
 				54DFC2996D364B99101BB9CE /* Navigator+Transition.swift in Sources */,
 				D11A849720B1157FEBECD912 /* Navigator.swift in Sources */,
@@ -1326,6 +1333,7 @@
 				548B5A9B5882008248BD1272 /* UIView+Subviews.swift in Sources */,
 				097002892754E9ED002217F1 /* DynamicFontSwiftUIView.swift in Sources */,
 				09A81EF727456961008CBEBD /* DynamicFontController.swift in Sources */,
+				09D3BF3B2759BB1F001545DF /* OverridingFont+Title.swift in Sources */,
 				726A9ED7039D668C6B1F9AC8 /* Typealiases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
