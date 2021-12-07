@@ -17,6 +17,7 @@ Declare a new `DynamicFont` type with the example file [ZenOldMincho.swift](http
 ### Use in place of UIFont
 ```
 label.font = .customFont(ZenOldMincho.regular, forTextStyle: .body)
+```
 
 ## Read more
 The demo is accompanied by the blog post [Adding Dynamic Custom Typing to your iOS Project](https://www.notion.so/nimblehq/Adding-Dynamic-Custom-Typing-to-your-iOS-Project-728bd13863964010b0c4bb9d3ae5a832)
