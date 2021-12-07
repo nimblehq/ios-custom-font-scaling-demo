@@ -1,38 +1,22 @@
-# ios-template
+# Custom Dynamic Font
 
-Our optimized iOS template used in our projects using Xcode Templates
+A simple guide to introducing Dynamic Typing for a custom font to your UIKit and SwiftUI project.
 
 ## Requirements
 
 Xcode 12.0
 
-## Wiki
+## Installation
 
-1. [Standard File Organization](https://github.com/nimblehq/ios-templates/wiki/Standard-file-organization)
-2. [Project Configurations](https://github.com/nimblehq/ios-templates/wiki/Project-configurations)
-3. [Why having project's dependencies](https://github.com/nimblehq/ios-templates/wiki/Why-having-project%27s-dependencies)
-4. [Github Actions](https://github.com/nimblehq/ios-templates/wiki/Github-Actions-Templates)
-5. [Bitrise Template](https://github.com/nimblehq/ios-templates/wiki/Bitrise-Template)
+Download and import the file [UIFont+CustomFont.swift](https://github.com/nimblehq/ios-custom-font-scaling-demo/blob/develop/CustomDynamicFont/Sources/Presentation/CustomFont/UIFont%2BCustomFont.swift).
 
+## Usage
 
-# Tuist Installation and Documentations
+Declare a new `DynamicFont` type with the example file [ZenOldMincho.swift](https://github.com/nimblehq/ios-custom-font-scaling-demo/blob/develop/CustomDynamicFont/Sources/Presentation/CustomFont/ZenOldMincho.swift). Ignore `DynamicFontIOS10` for iOS 11 and above.
 
-
-Run the following command in your terminal for the Tuist installation:
-
-
-```bash
-bash <(curl -Ls https://install.tuist.io)
+### Use in place of UIFont
 ```
+label.font = .customFont(ZenOldMincho.regular, forTextStyle: .body)
 
-Documentation : [Tuist Official Documents](https://docs.tuist.io/tutorial/get-started)
-
-
-## How to use
-
-### Install Script
-
-Execute the following command
-```
-sh make.sh --bundle-id [BUNDLE_ID_PRODUCTION] --bundle-id-staging [BUNDLE_ID_STAGING] --project-name [PROJECT_NAME]
-```
+## Read more
+The demo is accompanied by the blog post [Adding Dynamic Custom Typing to your iOS Project](https://www.notion.so/nimblehq/Adding-Dynamic-Custom-Typing-to-your-iOS-Project-728bd13863964010b0c4bb9d3ae5a832)
